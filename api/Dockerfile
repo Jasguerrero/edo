@@ -1,4 +1,4 @@
-FROM python:3.12.4-slim
+FROM python:3.9
 
 WORKDIR /app
 ENV FLASK_APP=main.py

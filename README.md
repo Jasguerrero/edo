@@ -4,6 +4,7 @@
 
 - Install Docker
 - On terminal
+
 ```
 docker-compose up --build
 ```

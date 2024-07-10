@@ -1,14 +1,23 @@
 from flask import Flask
+import psycopg2
 
 app = Flask(__name__)
+conn = psycopg2.connect(
+    dbname='edo_db',
+    user='user',
+    password='password',
+    host='db',
+    port='5432'
+)
 
 @app.route('/')
 def hello():
-    return 'Hello, World!'
-
-@app.route('/2')
-def hello_2():
-    return 'Hello, World 2!'
+    cur = conn.cursor()
+    cur.execute('SELECT version()')
+    db_version = cur.fetchone()
+    print(db_version)
+    cur.close()
+    return str(db_version)
 
 if __name__ == "__main__":
     app.run(debug=True)
