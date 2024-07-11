@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS edos (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(50) NOT NULL,
+    author VARCHAR(50) NOT NULL
+);
