@@ -3,6 +3,7 @@ from model.db_layer import DatabaseLayer, EDO
 
 app = Flask(__name__)
 db = DatabaseLayer()
+edo_params = 'ids', 'names', 'mobile_numbers', 'emails', 'addresses'
 
 @app.route('/get_edos', methods=['POST'])
 def get_edos():
@@ -17,7 +18,18 @@ def get_edos():
             emails=data.get('emails', []),
             addresses=data.get('addresses', [])
         )
-        r = {'data': edos}
+        data_list = [
+            {
+                'id': edo._id, 
+                'name': edo.name, 
+                'mobileNumber': edo.mobile_number,
+                'email': edo.email,
+                'physicalAddress': edo.address,
+                'created_at': edo.created_at
+            }
+            for edo in edos
+        ]
+        r = {'data': data_list}
         http_code = 200
         if message:
             r['message'] = message
@@ -45,9 +57,28 @@ def post_edos():
         return jsonify({'message': f"Unexpected error {err}"}), 500
     return jsonify({'message': 'success'}), 200
 
+@app.route('/delete_edos', methods=['POST'])
+def delete_edos():
+    params = [p in request.json for p in edo_params]
+
+    if not any(params):
+        return jsonify({'message': 'Missing data on request'}), 400
+    
+    deleted_records, err = db.delete_edos(
+        ids=request.json.get('ids', []),
+        names=request.json.get('names', []),
+        mobile_numbers=request.json.get('mobile_numbers', []),
+        emails=request.json.get('emails', []),
+        addresses=request.json.get('addresses', [])
+    )
+
+    if err is not None:
+        return jsonify({'message': f'Unexpected error: {err}'}), 500
+    plural = '' if deleted_records == 1 else 's'
+    return jsonify({'message': f'deleted: {deleted_records} record{plural}'})
+
 def _is_valid(data):
-    params = ['ids', 'names', 'mobile_numbers', 'emails', 'addresses']
-    for param in params:
+    for param in edo_params:
         if param in data and type(data[param]) is not list:
             return False
     return True
