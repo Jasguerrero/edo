@@ -54,7 +54,7 @@ class Query:
             conditions.append(f"{column} IN ({placeholders})")
             params.extend(values)
 
-        where_clause = " AND ".join(conditions)
+        where_clause = " OR ".join(conditions)
         self.select = "SELECT * FROM edos"
         self.message = "empty query, returning all records"
         if where_clause:

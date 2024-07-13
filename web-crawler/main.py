@@ -4,6 +4,7 @@ import logging
 
 from storage.csv_storage_client import CSVStorageClient
 from storage.db_storage_client import DBStorageClient
+from storage.cache_storage_client import CacheClient
 from web_crawling.edo_more_contact_info_crawler import EDOMoreContactInfoCrawler
 from city_state.city_to_state_generator import CityStateMapGenerator
 from formatter.final_format import format_final_df
@@ -23,10 +24,13 @@ def main(csv_storage_client: CSVStorageClient):
     if city == 'New York':
         logging.info('Using default city "New York"')
 
-    # Placeholder for the actual crawling logic
-    logging.info(f'Starting fetch for EDOs in {city}')
-
-    csv_storage_client = CSVStorageClient(logging=logging)
+    cache = CacheClient(logging=logging)
+    if cache.get_from_table(city):
+        logging.info(f"City: {city} already processed.")
+        logging.info('If you want to re-run it follow the instructions on the README.md on how to delete cache')
+        return
+    else:
+        logging.info(f"Starting fetch for EDOs in {city}")
     db_storage_client = DBStorageClient(logging=logging)
     full_contact_info_crawler = EDOMoreContactInfoCrawler(
         storage_client=csv_storage_client,
@@ -37,7 +41,10 @@ def main(csv_storage_client: CSVStorageClient):
     city_name = city.lower().replace(" ", "_")
     filename = f"{city_name}_edo_final"
     csv_storage_client.save(final_df, filename)
-    db_storage_client.save(final_df, '')
+    cache.save(final_df, filename)
+    logging.info(cache.get_dataframe(filename))
+    #db_storage_client.save(final_df, 'edos')
+    #cache.save('Done', city)
     
 if __name__ == '__main__':
     csv_storage_client = CSVStorageClient(logging=logging)

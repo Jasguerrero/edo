@@ -1,10 +1,8 @@
 import time
 import pandas as pd
 import psycopg2
-from psycopg2 import Error
 
 from storage.storage_client import StorageClient
-
 
 class DBStorageClient(StorageClient):
     def save(self, data: pd.DataFrame, table: str, if_exists: str = None):
@@ -14,8 +12,8 @@ class DBStorageClient(StorageClient):
             "edo_name", "phone", "email", "contact",
             "street", "city", "state", "zip", "Website URL"
         ]].apply(tuple, axis=1).tolist()
-        sql = """
-            INSERT INTO edos 
+        sql = f"""
+            INSERT INTO {table} 
             (name, mobileNumber, email, contact, physicalAddress, city, state, zipCode, website) 
             VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
             """
@@ -41,7 +39,7 @@ class DBStorageClient(StorageClient):
                 )
                 self._logging.info("Connected to PostgreSQL!")
                 return connection
-            except (Exception, Error) as error:
+            except (Exception, psycopg2.Error) as error:
                 self._logging.info(f"Error connecting to db: {error.__str__}")
                 attempt += 1
                 time.sleep(10)

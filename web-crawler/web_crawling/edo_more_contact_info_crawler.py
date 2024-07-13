@@ -9,6 +9,7 @@ from tqdm import tqdm
 
 from web_crawling.edo_contact_crawler import EDOContactCrawler
 from web_crawling.web_crawler_errors import NoResultsFoundError
+from storage.storage_client import StorageClient
 
 
 class EDOMoreContactInfoCrawler:
@@ -16,7 +17,7 @@ class EDOMoreContactInfoCrawler:
     PHONE_KEY = "Phone"
     EMAIL_KEY = "email"
 
-    def __init__(self, logging, storage_client):
+    def __init__(self, logging, storage_client: StorageClient):
         self.edo_contact_info = EDOContactCrawler(storage_client)
         self._storage_client = storage_client
         self._logging = logging
