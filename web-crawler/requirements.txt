@@ -4,3 +4,4 @@ geonamescache==2.0.0
 pandas==2.2.2
 geopy==2.4.1
 tqdm==4.66.4
+psycopg2-binary==2.8.6

@@ -3,6 +3,7 @@ import argparse
 import logging
 
 from storage.csv_storage_client import CSVStorageClient
+from storage.db_storage_client import DBStorageClient
 from web_crawling.edo_more_contact_info_crawler import EDOMoreContactInfoCrawler
 from city_state.city_to_state_generator import CityStateMapGenerator
 from formatter.final_format import format_final_df
@@ -26,6 +27,7 @@ def main(csv_storage_client: CSVStorageClient):
     logging.info(f'Starting fetch for EDOs in {city}')
 
     csv_storage_client = CSVStorageClient(logging=logging)
+    db_storage_client = DBStorageClient(logging=logging)
     full_contact_info_crawler = EDOMoreContactInfoCrawler(
         storage_client=csv_storage_client,
         logging=logging
@@ -35,6 +37,7 @@ def main(csv_storage_client: CSVStorageClient):
     city_name = city.lower().replace(" ", "_")
     filename = f"{city_name}_edo_final"
     csv_storage_client.save(final_df, filename)
+    db_storage_client.save(final_df, '')
     
 if __name__ == '__main__':
     csv_storage_client = CSVStorageClient(logging=logging)
@@ -46,5 +49,5 @@ if __name__ == '__main__':
     else:
         csm_generator = CityStateMapGenerator(csv_storage_client, city_state_file_name)
         csm_generator.generate()
-        
+
     main(csv_storage_client)
