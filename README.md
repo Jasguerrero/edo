@@ -64,5 +64,5 @@ Payload example
 
 ## PG Admin
 
-- To connecto to the web client go to `localhost:6060` username: admin@admin.com password: password
+- To connecto to the web client go to `localhost:6060` email: admin@admin.com | password: password
 - Connect to the postgresdb with username: admin | password: password

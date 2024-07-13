@@ -5,7 +5,6 @@ class CityStateMap:
     def __init__(self, storage_client):
         self._storage_client = storage_client
         # current list 3000 cities. It's safe to keep it in memory.
-        # we'll load it in here, but you can implement your own query if needed.
         if not self.CITY_STATE_MAP:
             self.CITY_STATE_MAP = self._load_all_city_states()
 

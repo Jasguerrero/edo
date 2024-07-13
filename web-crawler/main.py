@@ -1,13 +1,15 @@
+import os
 import argparse
 import logging
 
 from storage.csv_storage_client import CSVStorageClient
 from web_crawling.edo_more_contact_info_crawler import EDOMoreContactInfoCrawler
+from city_state.city_to_state_generator import CityStateMapGenerator
 from formatter.final_format import format_final_df
 
 logging.basicConfig(level=logging.INFO)
 
-def main():
+def main(csv_storage_client: CSVStorageClient):
     # Setup argument parser
     parser = argparse.ArgumentParser(description='Web crawler for EDOs.')
     parser.add_argument('--city', type=str, default='New York', help='City to search for EDOs')
@@ -35,4 +37,14 @@ def main():
     csv_storage_client.save(final_df, filename)
     
 if __name__ == '__main__':
-    main()
+    csv_storage_client = CSVStorageClient(logging=logging)
+    city_state_file_name = 'city_state_map'
+
+    # Persist the csv mapping that is generated on the first run
+    if os.path.exists(f"/app/data/{city_state_file_name}.csv"):
+        logging.info('Skipping city-state generator')
+    else:
+        csm_generator = CityStateMapGenerator(csv_storage_client, city_state_file_name)
+        csm_generator.generate()
+        
+    main(csv_storage_client)
