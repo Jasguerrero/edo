@@ -25,6 +25,15 @@ services:
       - db
     networks:
       - app-network
+
+  web-crawler:
+    build: ./web-crawler
+    depends_on:
+      - db
+    volumes:
+      - ./data:/app/data
+    networks:
+      - app-network
   
   pgadmin:
     image: dpage/pgadmin4:8.9

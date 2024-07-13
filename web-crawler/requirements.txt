@@ -1,0 +1,6 @@
+requests==2.25.1
+beautifulsoup4==4.9.3
+geonamescache==2.0.0
+pandas==2.2.2
+geopy==2.4.1
+tqdm==4.66.4

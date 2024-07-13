@@ -1,0 +1,2831 @@
+,city,state
+0,Fort Hunt,va
+1,Bessemer,al
+2,Paducah,ky
+3,Birmingham,mi
+4,Cordova,tn
+5,Center Point,al
+6,Cullman,al
+7,Daphne,al
+8,Decatur,il
+9,Dothan,al
+10,East Florence,al
+11,Enterprise,nv
+12,Fairhope,al
+13,Florence,az
+14,Foley,al
+15,Gadsden,al
+16,Helena,mt
+17,Homewood,il
+18,Hoover,al
+19,Hueytown,al
+20,Huntsville,tx
+21,Madison,wi
+22,Millbrook,al
+23,Mobile,al
+24,Montgomery,il
+25,Mountain Brook,al
+26,Northport,al
+27,Opelika,al
+28,Oxford,oh
+29,Pelham,al
+30,Phenix City,al
+31,Prattville,al
+32,Prichard,al
+33,Selma,ca
+34,Talladega,al
+35,Tillmans Corner,al
+36,Troy,oh
+37,Trussville,al
+38,Tuscaloosa,al
+39,Vestavia Hills,al
+40,Bella Vista,ar
+41,Benton,ar
+42,Bentonville,ar
+43,Bryant,ar
+44,Cabot,ar
+45,Conway,sc
+46,El Dorado,ar
+47,Fayetteville,nc
+48,Fort Smith,ar
+49,Hot Springs,ar
+50,Jacksonville,nc
+51,Jonesboro,ar
+52,Little Rock,ar
+53,Maumelle,ar
+54,North Little Rock,ar
+55,Paragould,ar
+56,Pine Bluff,ar
+57,Rogers,ar
+58,Russellville,ar
+59,Searcy,ar
+60,Siloam Springs,ar
+61,Springdale,ar
+62,Texarkana,tx
+63,Van Buren,ar
+64,West Memphis,ar
+65,Adams Morgan,dc
+66,Shaw,dc
+67,Washington,ut
+68,Bear,de
+69,Dover,nj
+70,Middletown,ri
+71,Newark,ca
+72,Wilmington,ma
+73,Allapattah,fl
+74,Altamonte Springs,fl
+75,Apopka,fl
+76,Auburndale,fl
+77,Aventura,fl
+78,Bartow,fl
+79,Bayonet Point,fl
+80,Bayshore Gardens,fl
+81,Belle Glade,fl
+82,Bellview,fl
+83,Bloomingdale,il
+84,Boca Del Mar,fl
+85,Boca Raton,fl
+86,Bonita Springs,fl
+87,Boynton Beach,fl
+88,Bradenton,fl
+89,Brandon,ms
+90,Brent,fl
+91,Brownsville,ny
+92,Buenaventura Lakes,fl
+93,Cantonment,fl
+94,Cape Coral,fl
+95,Carol City,fl
+96,Carrollwood,fl
+97,Carrollwood Village,fl
+98,Casselberry,fl
+99,Citrus Park,fl
+100,Clearwater,fl
+101,Clermont,fl
+102,Cocoa,fl
+103,Coconut Creek,fl
+104,Coconut Grove,fl
+105,Cooper City,fl
+106,Coral Gables,fl
+107,Coral Springs,fl
+108,Coral Terrace,fl
+109,Country Walk,fl
+110,Country Club,fl
+111,Crestview,fl
+112,Cutler,fl
+113,Cutler Ridge,fl
+114,Dania Beach,fl
+115,Davie,fl
+116,Daytona Beach,fl
+117,DeLand,fl
+118,DeBary,fl
+119,Deerfield Beach,fl
+120,Delray Beach,fl
+121,Deltona,fl
+122,Doral,fl
+123,Dunedin,fl
+124,East Lake,fl
+125,East Naples,fl
+126,East Pensacola Heights,fl
+127,Edgewater,il
+128,Egypt Lake-Leto,fl
+129,Ensley,fl
+130,Estero,fl
+131,Eustis,fl
+132,Ferry Pass,fl
+133,Flagami,fl
+134,Fleming Island,fl
+135,Florida Ridge,fl
+136,Fort Lauderdale,fl
+137,Fort Myers,fl
+138,Fort Pierce,fl
+139,Fort Walton Beach,fl
+140,Fountainebleau,fl
+141,Fruit Cove,fl
+142,Gainesville,tx
+143,Glenvar Heights,fl
+144,Golden Gate,fl
+145,Golden Glades,fl
+146,Greenacres City,fl
+147,Haines City,fl
+148,Hallandale Beach,fl
+149,Hialeah,fl
+150,Hialeah Gardens,fl
+151,Holiday,fl
+152,Hollywood,ca
+153,Homestead,fl
+154,Immokalee,fl
+155,Iona,fl
+156,Ives Estates,fl
+157,Jacksonville Beach,fl
+158,Jasmine Estates,fl
+159,Jupiter,fl
+160,Kendale Lakes,fl
+161,Kendall,fl
+162,Key West,fl
+163,Keystone,fl
+164,Kissimmee,fl
+165,Lake Butler,fl
+166,Lake Magdalene,fl
+167,Lake Mary,fl
+168,Lake Wales,fl
+169,Lake Worth,fl
+170,Lake Worth Corridor,fl
+171,Lakeland,fl
+172,Lakeside,ca
+173,Land O' Lakes,fl
+174,Largo,fl
+175,Lauderdale Lakes,fl
+176,Lauderhill,fl
+177,Lealman,fl
+178,Leesburg,va
+179,Lehigh Acres,fl
+180,Leisure City,fl
+181,Lutz,fl
+182,Lynn Haven,fl
+183,Maitland,fl
+184,Marco Island,fl
+185,Margate,fl
+186,Meadow Woods,fl
+187,Melbourne,fl
+188,Merritt Island,fl
+189,Miami,fl
+190,Miami Beach,fl
+191,Miami Gardens,fl
+192,Miami Lakes,fl
+193,Miramar,fl
+194,Myrtle Grove,fl
+195,Naples,fl
+196,Navarre,fl
+197,New Port Richey,fl
+198,New Smyrna Beach,fl
+199,Norland,fl
+200,North Fort Myers,fl
+201,North Lauderdale,fl
+202,North Miami,fl
+203,North Miami Beach,fl
+204,North Port,fl
+205,Oak Ridge,tn
+206,Oakland Park,fl
+207,Ocala,fl
+208,Ocoee,fl
+209,Ojus,fl
+210,Opa-locka,fl
+211,Orlando,fl
+212,Ormond Beach,fl
+213,Oviedo,fl
+214,Pace,fl
+215,Palm Bay,fl
+216,Palm Beach Gardens,fl
+217,Palm City,fl
+218,Palm Coast,fl
+219,Palm Harbor,fl
+220,Palm Springs,ca
+221,Palm Valley,fl
+222,Palmetto Bay,fl
+223,Panama City,fl
+224,Parkland,wa
+225,Pembroke Pines,fl
+226,Pensacola,fl
+227,Pine Hills,fl
+228,Pinecrest,fl
+229,Pinellas Park,fl
+230,Pinewood,fl
+231,Plant City,fl
+232,Plantation,fl
+233,Poinciana,fl
+234,Pompano Beach,fl
+235,Ponte Vedra Beach,fl
+236,Port Charlotte,fl
+237,Port Orange,fl
+238,Port Saint Lucie,fl
+239,Princeton,nj
+240,Punta Gorda,fl
+241,Punta Gorda Isles,fl
+242,Richmond West,fl
+243,Riverview,fl
+244,Riviera Beach,fl
+245,Rockledge,fl
+246,Royal Palm Beach,fl
+247,Ruskin,fl
+248,Safety Harbor,fl
+249,Saint Cloud,mn
+250,St. Petersburg,fl
+251,San Carlos Park,fl
+252,Sanford,me
+253,Santa Rosa Beach,fl
+254,Sarasota,fl
+255,Sebastian,fl
+256,Seminole,fl
+257,South Bradenton,fl
+258,South Miami Heights,fl
+259,Southchase,fl
+260,Spring Hill,tn
+261,Stuart,fl
+262,Sun City Center,fl
+263,Sunny Isles Beach,fl
+264,Sunrise,fl
+265,Sunset,fl
+266,Sweetwater,fl
+267,Tallahassee,fl
+268,Tamarac,fl
+269,Tamiami,fl
+270,Tampa,fl
+271,Tarpon Springs,fl
+272,Tavares,fl
+273,Temple Terrace,fl
+274,The Crossings,fl
+275,The Hammocks,fl
+276,The Villages,fl
+277,Three Lakes,fl
+278,Titusville,fl
+279,Town 'n' Country,fl
+280,University Park,tx
+281,Valrico,fl
+282,Venice,ca
+283,Vero Beach,fl
+284,Wekiwa Springs,fl
+285,Wellington,fl
+286,Wesley Chapel,fl
+287,Westchase,fl
+288,West Hollywood,ca
+289,West Little River,fl
+290,West Melbourne,fl
+291,West Palm Beach,fl
+292,West Park,fl
+293,West Pensacola,fl
+294,West and East Lealman,fl
+295,Westchester,il
+296,Weston,wi
+297,Winter Garden,fl
+298,Winter Haven,fl
+299,Winter Park,fl
+300,Winter Springs,fl
+301,Wright,fl
+302,Acworth,ga
+303,Albany,or
+304,Alpharetta,ga
+305,Americus,ga
+306,Athens,al
+307,Atlanta,ga
+308,Augusta,me
+309,Belvedere Park,ga
+310,Brookhaven,ga
+311,Brunswick,oh
+312,Calhoun,ga
+313,Canton,oh
+314,Carrollton,tx
+315,Cartersville,ga
+316,Chamblee,ga
+317,Columbus,ne
+318,Conyers,ga
+319,Dalton,ga
+320,Douglasville,ga
+321,Dublin,ca
+322,Duluth,mn
+323,Dunwoody,ga
+324,East Point,ga
+325,Evans,co
+326,Forest Park,oh
+327,Griffin,ga
+328,Hinesville,ga
+329,Kennesaw,ga
+330,Kingsland,ga
+331,LaGrange,ga
+332,Lawrenceville,ga
+333,Lithia Springs,ga
+334,Mableton,ga
+335,Macon,ga
+336,Marietta,ga
+337,Martinez,ca
+338,McDonough,ga
+339,Milledgeville,ga
+340,Newnan,ga
+341,Norcross,ga
+342,North Atlanta,ga
+343,North Decatur,ga
+344,North Druid Hills,ga
+345,Peachtree City,ga
+346,Peachtree Corners,ga
+347,Perry,ga
+348,Pooler,ga
+349,Redan,ga
+350,Riverdale,ga
+351,Rome,ny
+352,Roswell,nm
+353,St. Marys,ga
+354,Sandy Springs,ga
+355,Savannah,ga
+356,Smyrna,tn
+357,Snellville,ga
+358,Statesboro,ga
+359,Stockbridge,ga
+360,Sugar Hill,ga
+361,Suwanee,ga
+362,Thomasville,nc
+363,Tifton,ga
+364,Tucker,ga
+365,Union City,ca
+366,Valdosta,ga
+367,Warner Robins,ga
+368,Wilmington Island,ga
+369,Winder,ga
+370,Woodstock,il
+371,Alton,tx
+372,Belleville,nj
+373,Carbondale,il
+374,Charleston,wv
+375,Collinsville,il
+376,East Saint Louis,il
+377,Edwardsville,il
+378,Fairview Heights,il
+379,Godfrey,il
+380,Granite City,il
+381,Marion,oh
+382,Mattoon,il
+383,Mount Vernon,wa
+384,O'Fallon,mo
+385,Quincy,ma
+386,Springfield,or
+387,Upper Alton,il
+388,Avon,oh
+389,Bloomington,ca
+390,Broad Ripple,in
+391,Brownsburg,in
+392,Carmel,in
+393,Clarksville,tn
+394,Evansville,in
+395,Fishers,in
+396,Greenfield,ca
+397,Greenwood,sc
+398,Indianapolis,in
+399,Jasper,in
+400,Jeffersonville,in
+401,Lawrence,ma
+402,New Albany,in
+403,New Castle,pa
+404,Plainfield,nj
+405,Richmond,ca
+406,Seymour,ct
+407,Shelbyville,tn
+408,Terre Haute,in
+409,Vincennes,in
+410,Zionsville,in
+411,Derby,ks
+412,Emporia,ks
+413,Gardner,ma
+414,Great Bend,ks
+415,Hays,ks
+416,Hutchinson,ks
+417,Junction City,ks
+418,Kansas City,mo
+419,Leavenworth,ks
+420,Leawood,ks
+421,Lenexa,ks
+422,Manhattan,ny
+423,Newton,ma
+424,Olathe,ks
+425,Overland Park,ks
+426,Pittsburg,ca
+427,Prairie Village,ks
+428,Salina,ks
+429,Shawnee,ok
+430,Topeka,ks
+431,Wichita,ks
+432,Ashland,or
+433,Bowling Green,oh
+434,Burlington,vt
+435,Covington,wa
+436,Danville,ca
+437,Elizabethtown,ky
+438,Erlanger,ky
+439,Fern Creek,ky
+440,Fort Thomas,ky
+441,Frankfort,in
+442,Georgetown,tx
+443,Henderson,nv
+444,Highview,ky
+445,Hopkinsville,ky
+446,Independence,mo
+447,Ironville,ky
+448,Jeffersontown,ky
+449,Lexington,ma
+450,Lexington-Fayette,ky
+451,Louisville,co
+452,Madisonville,ky
+453,Meads,ky
+454,Murray,ut
+455,Newburg,ky
+456,Newport,ri
+457,Nicholasville,ky
+458,Okolona,ky
+459,Owensboro,ky
+460,Pleasure Ridge Park,ky
+461,Radcliff,ky
+462,Saint Matthews,ky
+463,Shively,ky
+464,Valley Station,ky
+465,Winchester,nv
+466,Alexandria,va
+467,Baton Rouge,la
+468,Bayou Cane,la
+469,Bossier City,la
+470,Central,la
+471,Chalmette,la
+472,Estelle,la
+473,Gretna,la
+474,Hammond,in
+475,Harvey,il
+476,Houma,la
+477,Kenner,la
+478,Lafayette,co
+479,Lake Charles,la
+480,Laplace,la
+481,Marrero,la
+482,Metairie,la
+483,Metairie Terrace,la
+484,Monroe,wa
+485,Natchitoches,la
+486,New Iberia,la
+487,New Orleans,la
+488,Opelousas,la
+489,Prairieville,la
+490,Ruston,la
+491,Shenandoah,la
+492,Shreveport,la
+493,Slidell,la
+494,Sulphur,la
+495,Terrytown,la
+496,Zachary,la
+497,Aberdeen,wa
+498,Adelphi,md
+499,Annapolis,md
+500,Arbutus,md
+501,Arnold,mo
+502,Aspen Hill,md
+503,Baltimore,md
+504,Ballenger Creek,md
+505,Beltsville,md
+506,Bethesda,md
+507,Bowie,md
+508,Calverton,md
+509,Camp Springs,md
+510,Carney,md
+511,Catonsville,md
+512,Chillum,md
+513,Cloverly,md
+514,Clinton,ut
+515,Cockeysville,md
+516,College Park,md
+517,Columbia,tn
+518,Crofton,md
+519,Cumberland,ri
+520,Damascus,md
+521,Dundalk,md
+522,East Riverdale,md
+523,Easton,pa
+524,Edgewood,md
+525,Eldersburg,md
+526,Elkton,md
+527,Elkridge,md
+528,Ellicott City,md
+529,Essex,md
+530,Fairland,md
+531,Ferndale,mi
+532,Fort Washington,md
+533,Frederick,md
+534,Gaithersburg,md
+535,Germantown,wi
+536,Glassmanor,md
+537,Glen Burnie,md
+538,Green Haven,md
+539,Greenbelt,md
+540,Gwynn Oak,md
+541,Hagerstown,md
+542,Hanover,ma
+543,Hillcrest Heights,md
+544,Hunt Valley,md
+545,Hyattsville,md
+546,Ilchester,md
+547,Lake Shore,md
+548,Landover,md
+549,Langley Park,md
+550,Laurel,va
+551,Lochearn,md
+552,Maryland City,md
+553,Middle River,md
+554,Milford Mill,md
+555,Montgomery Village,md
+556,North Bel Air,md
+557,North Bethesda,md
+558,North Potomac,md
+559,Odenton,md
+560,Olney,md
+561,Owings Mills,md
+562,Oxon Hill,md
+563,Parkville,md
+564,Parole,md
+565,Pasadena,ca
+566,Perry Hall,md
+567,Pikesville,md
+568,Potomac,md
+569,Randallstown,md
+570,Redland,md
+571,Reisterstown,md
+572,Rockville,md
+573,Rosedale,ny
+574,Rossville,ny
+575,Saint Charles,mo
+576,Salisbury,nc
+577,Scaggsville,md
+578,Seabrook,md
+579,Severn,md
+580,Severna Park,md
+581,Silver Spring,md
+582,South Bel Air,md
+583,South Gate,ca
+584,South Laurel,md
+585,Suitland,md
+586,Takoma Park,md
+587,Towson,md
+588,Waldorf,md
+589,West Elkridge,md
+590,Westminster,co
+591,Wheaton,il
+592,White Oak,oh
+593,Woodlawn,il
+594,Affton,mo
+595,Ballwin,mo
+596,Belton,tx
+597,Blue Springs,mo
+598,Cape Girardeau,mo
+599,Chesterfield,mo
+600,Clayton,nc
+601,Concord,ca
+602,Creve Coeur,mo
+603,East Independence,mo
+604,Farmington,ut
+605,Ferguson,mo
+606,Florissant,mo
+607,Gladstone,mo
+608,Grandview,mo
+609,Hannibal,mo
+610,Hazelwood,mo
+611,Jefferson City,mo
+612,Joplin,mo
+613,Kirkwood,mo
+614,Lee's Summit,mo
+615,Lemay,mo
+616,Liberty,mo
+617,Manchester,nh
+618,Maryland Heights,mo
+619,Mehlville,mo
+620,Nixa,mo
+621,Oakville,mo
+622,Overland,mo
+623,Ozark,mo
+624,Poplar Bluff,mo
+625,Raymore,mo
+626,Raytown,mo
+627,Republic,mo
+628,Rolla,mo
+629,Saint Joseph,mo
+630,St. Louis,mo
+631,Saint Peters,mo
+632,Sedalia,mo
+633,Sikeston,mo
+634,Spanish Lake,mo
+635,University City,mo
+636,Warrensburg,mo
+637,Webster Groves,mo
+638,Wentzville,mo
+639,Wildwood,mo
+640,Biloxi,ms
+641,Clarksdale,ms
+642,Gautier,ms
+643,Greenville,tx
+644,Gulfport,ms
+645,Hattiesburg,ms
+646,Hernando,ms
+647,Horn Lake,ms
+648,Jackson,mi
+649,Long Beach,ca
+650,Meridian,id
+651,Natchez,ms
+652,Ocean Springs,ms
+653,Olive Branch,ms
+654,Pascagoula,ms
+655,Pearl,ms
+656,Ridgeland,ms
+657,Southaven,ms
+658,Starkville,ms
+659,Tupelo,ms
+660,Vicksburg,ms
+661,West Gulfport,ms
+662,Albemarle,nc
+663,Apex,nc
+664,Asheboro,nc
+665,Asheville,nc
+666,Boone,nc
+667,Carrboro,nc
+668,Cary,il
+669,Chapel Hill,nc
+670,Charlotte,nc
+671,Clemmons,nc
+672,Cornelius,nc
+673,Durham,nc
+674,Eden,nc
+675,Elizabeth City,nc
+676,Fuquay-Varina,nc
+677,Garner,nc
+678,Gastonia,nc
+679,Goldsboro,nc
+680,Greensboro,nc
+681,Havelock,nc
+682,Hickory,nc
+683,High Point,nc
+684,Holly Springs,nc
+685,Hope Mills,nc
+686,Huntersville,nc
+687,Indian Trail,nc
+688,Kannapolis,nc
+689,Kernersville,nc
+690,Kinston,nc
+691,Laurinburg,nc
+692,Leland,nc
+693,Lenoir,nc
+694,Lumberton,nc
+695,Matthews,nc
+696,Mint Hill,nc
+697,Mooresville,nc
+698,Morganton,nc
+699,Morrisville,nc
+700,New Bern,nc
+701,Pinehurst,nc
+702,Raleigh,nc
+703,Roanoke Rapids,nc
+704,Rocky Mount,nc
+705,Shelby,mi
+706,Stallings,nc
+707,Statesville,nc
+708,Wake Forest,nc
+709,West Raleigh,nc
+710,Wilson,nc
+711,Winston-Salem,nc
+712,Atlantic City,nj
+713,Bayville,nj
+714,Bridgeton,nj
+715,Camden,nj
+716,Cherry Hill,va
+717,Glassboro,nj
+718,Lindenwold,nj
+719,Maple Shade,nj
+720,Millville,nj
+721,Mount Laurel,nj
+722,Ocean Acres,nj
+723,Pennsauken,nj
+724,Pleasantville,nj
+725,Sewell,nj
+726,Sicklerville,nj
+727,South Vineland,nj
+728,Toms River,nj
+729,Vincentown,nj
+730,Vineland,nj
+731,Williamstown,nj
+732,Beavercreek,oh
+733,Centerville,ut
+734,Cincinnati,oh
+735,Dayton,oh
+736,Fairborn,oh
+737,Fairfield,ca
+738,Grove City,oh
+739,Hamilton,oh
+740,Huber Heights,oh
+741,Kettering,oh
+742,Lancaster,ca
+743,Lebanon,or
+744,Mason,oh
+745,Miamisburg,oh
+746,Norwood,ma
+747,Pataskala,oh
+748,Pickerington,oh
+749,Portsmouth,ri
+750,Reynoldsburg,oh
+751,Riverside,ca
+752,Springboro,oh
+753,Trotwood,oh
+754,Upper Arlington,oh
+755,Vandalia,oh
+756,Whitehall,oh
+757,Xenia,oh
+758,Zanesville,oh
+759,Ada,ok
+760,Altus,ok
+761,Ardmore,ok
+762,Bartlesville,ok
+763,Bethany,or
+764,Bixby,ok
+765,Broken Arrow,ok
+766,Chickasha,ok
+767,Claremore,ok
+768,Del City,ok
+769,Duncan,ok
+770,Durant,ok
+771,Edmond,ok
+772,El Reno,ok
+773,Enid,ok
+774,Jenks,ok
+775,Lawton,ok
+776,McAlester,ok
+777,Midwest City,ok
+778,Moore,ok
+779,Muskogee,ok
+780,Mustang,ok
+781,Norman,ok
+782,Oklahoma City,ok
+783,Owasso,ok
+784,Ponca City,ok
+785,Sand Springs,ok
+786,Sapulpa,ok
+787,Stillwater,mn
+788,Tahlequah,ok
+789,Tulsa,ok
+790,Yukon,ok
+791,Chambersburg,pa
+792,Chester,va
+793,Drexel Hill,pa
+794,Pennsport,pa
+795,Philadelphia,pa
+796,West Chester,pa
+797,Wharton,pa
+798,Whitman,pa
+799,York,pa
+800,Aiken,sc
+801,Anderson,in
+802,Bluffton,sc
+803,Clemson,sc
+804,Easley,sc
+805,Goose Creek,sc
+806,Greer,sc
+807,Hanahan,sc
+808,Hilton Head Island,sc
+809,Hilton Head,sc
+810,Mauldin,sc
+811,Mount Pleasant,wi
+812,Myrtle Beach,sc
+813,North Augusta,sc
+814,North Charleston,sc
+815,North Myrtle Beach,sc
+816,Rock Hill,sc
+817,Saint Andrews,sc
+818,Seven Oaks,sc
+819,Simpsonville,sc
+820,Socastee,sc
+821,Spartanburg,sc
+822,Summerville,sc
+823,Sumter,sc
+824,Taylors,sc
+825,Wade Hampton,sc
+826,West Columbia,sc
+827,Bartlett,il
+828,Brentwood,ca
+829,Brentwood Estates,tn
+830,Bristol,ct
+831,Chattanooga,tn
+832,Cleveland,oh
+833,Collierville,tn
+834,Cookeville,tn
+835,Dickson,tn
+836,Dyersburg,tn
+837,East Brainerd,tn
+838,East Chattanooga,tn
+839,East Ridge,tn
+840,Ellendale,tn
+841,Farragut,tn
+842,Franklin,wi
+843,Gallatin,tn
+844,Goodlettsville,tn
+845,Greeneville,tn
+846,Hendersonville,tn
+847,Hermitage,pa
+848,Johnson City,tn
+849,Kingsport,tn
+850,Knoxville,tn
+851,La Vergne,tn
+852,Maryville,tn
+853,Memphis,tn
+854,Morristown,nj
+855,Mount Juliet,tn
+856,Murfreesboro,tn
+857,Nashville,tn
+858,New South Memphis,tn
+859,Sevierville,tn
+860,Tullahoma,tn
+861,Abilene,tx
+862,Addison,il
+863,Alamo,tx
+864,Aldine,tx
+865,Alice,tx
+866,Alief,tx
+867,Allen,tx
+868,Alvin,tx
+869,Angleton,tx
+870,Arlington,wa
+871,Atascocita,tx
+872,Austin,mn
+873,Balch Springs,tx
+874,Baytown,tx
+875,Beaumont,ca
+876,Bedford,nh
+877,Bellaire,tx
+878,Benbrook,tx
+879,Brenham,tx
+880,Brownwood,tx
+881,Brushy Creek,tx
+882,Bryan,tx
+883,Burleson,tx
+884,Canyon Lake,tx
+885,Cedar Hill,tx
+886,Cedar Park,tx
+887,Channelview,tx
+888,Cibolo,tx
+889,Cinco Ranch,tx
+890,Cleburne,tx
+891,Cloverleaf,tx
+892,College Station,tx
+893,Colleyville,tx
+894,Conroe,tx
+895,Converse,tx
+896,Coppell,tx
+897,Copperas Cove,tx
+898,Corinth,tx
+899,Corpus Christi,tx
+900,Corsicana,tx
+901,Cypress,ca
+902,Dallas,or
+903,DeSoto,tx
+904,Deer Park,ny
+905,Denison,tx
+906,Denton,tx
+907,Dickinson,nd
+908,Donna,tx
+909,Duncanville,tx
+910,Edinburg,tx
+911,Ennis,tx
+912,Euless,tx
+913,Farmers Branch,tx
+914,Flower Mound,tx
+915,Forney,tx
+916,Fort Worth,tx
+917,Fresno,ca
+918,Friendswood,tx
+919,Frisco,tx
+920,Galveston,tx
+921,Garland,tx
+922,Gatesville,tx
+923,Grand Prairie,tx
+924,Grapevine,tx
+925,Groves,tx
+926,Haltom City,tx
+927,Harker Heights,tx
+928,Harlingen,tx
+929,Highland Village,tx
+930,Houston,tx
+931,Humble,tx
+932,Hurst,tx
+933,Hutto,tx
+934,Irving,tx
+935,Jollyville,tx
+936,Katy,tx
+937,Keller,tx
+938,Kerrville,tx
+939,Killeen,tx
+940,Kingsville,tx
+941,Kyle,tx
+942,La Marque,tx
+943,La Porte,in
+944,Lake Jackson,tx
+945,Laredo,tx
+946,League City,tx
+947,Leander,tx
+948,Lewisville,tx
+949,Little Elm,tx
+950,Live Oak,ca
+951,Longview,wa
+952,Lufkin,tx
+953,Mansfield,oh
+954,Marshall,tx
+955,McAllen,tx
+956,McKinney,tx
+957,Mercedes,tx
+958,Mesquite,nv
+959,Midlothian,tx
+960,Mission,tx
+961,Mission Bend,tx
+962,Missouri City,tx
+963,Murphy,tx
+964,Nacogdoches,tx
+965,Nederland,tx
+966,New Braunfels,tx
+967,New Territory,tx
+968,North Richland Hills,tx
+969,Orange,ca
+970,Palestine,tx
+971,Paris,tx
+972,Pearland,tx
+973,Pecan Grove,tx
+974,Pflugerville,tx
+975,Pharr,tx
+976,Plano,tx
+977,Port Arthur,tx
+978,Portland,or
+979,Prosper,tx
+980,Richardson,tx
+981,Rockwall,tx
+982,Rosenberg,tx
+983,Round Rock,tx
+984,Rowlett,tx
+985,Sachse,tx
+986,Saginaw,mi
+987,San Antonio,tx
+988,San Benito,tx
+989,San Juan,tx
+990,San Marcos,ca
+991,Schertz,tx
+992,Seagoville,tx
+993,Seguin,tx
+994,Sherman,tx
+995,South Houston,tx
+996,Southlake,tx
+997,Spring,tx
+998,Stafford,tx
+999,Stephenville,tx
+1000,Sugar Land,tx
+1001,Sulphur Springs,tx
+1002,Taylor,mi
+1003,Temple,tx
+1004,Terrell,tx
+1005,Texas City,tx
+1006,The Colony,tx
+1007,The Woodlands,tx
+1008,Tyler,tx
+1009,Universal City,ca
+1010,Uvalde,tx
+1011,Victoria,tx
+1012,Waco,tx
+1013,Watauga,tx
+1014,Waxahachie,tx
+1015,Weatherford,tx
+1016,Weslaco,tx
+1017,West University Place,tx
+1018,White Settlement,tx
+1019,Wichita Falls,tx
+1020,Wylie,tx
+1021,Annandale,va
+1022,Ashburn,il
+1023,Baileys Crossroads,va
+1024,Blacksburg,va
+1025,Bon Air,va
+1026,Buckhall,va
+1027,Burke,va
+1028,Cave Spring,va
+1029,Centreville,va
+1030,Chantilly,va
+1031,Charlottesville,va
+1032,Chesapeake,va
+1033,Christiansburg,va
+1034,Colonial Heights,va
+1035,Culpeper,va
+1036,Dale City,va
+1037,East Hampton,va
+1038,Fairfax,va
+1039,Franconia,va
+1040,Fredericksburg,va
+1041,Front Royal,va
+1042,Great Falls,mt
+1043,Hampton,va
+1044,Harrisonburg,va
+1045,Herndon,va
+1046,Highland Springs,va
+1047,Hopewell,va
+1048,Hybla Valley,va
+1049,Idylwood,va
+1050,Lake Ridge,va
+1051,Lincolnia,va
+1052,Linton Hall,va
+1053,Lorton,va
+1054,Lynchburg,va
+1055,Manassas,va
+1056,Manassas Park,va
+1057,McLean,va
+1058,Mechanicsville,va
+1059,Merrifield,va
+1060,Montclair,ca
+1061,Newport News,va
+1062,Norfolk,ne
+1063,Oakton,va
+1064,Petersburg,va
+1065,Portsmouth Heights,va
+1066,Radford,va
+1067,Reston,va
+1068,Roanoke,va
+1069,Rose Hill,va
+1070,Salem,or
+1071,Short Pump,va
+1072,South Riding,va
+1073,South Suffolk,va
+1074,Staunton,va
+1075,Sterling,il
+1076,Sudley,va
+1077,Suffolk,va
+1078,Tuckahoe,va
+1079,Tysons Corner,va
+1080,Vienna,va
+1081,Virginia Beach,va
+1082,Waynesboro,va
+1083,West Lynchburg,va
+1084,West Springfield,ma
+1085,Williamsburg,ny
+1086,Wolf Trap,va
+1087,Beckley,wv
+1088,Clarksburg,wv
+1089,Fairmont,wv
+1090,Huntington,ny
+1091,Martinsburg,wv
+1092,Morgantown,wv
+1093,Parkersburg,wv
+1094,Sherwood,or
+1095,Chillicothe,oh
+1096,Bay City,mi
+1097,Alabaster,al
+1098,Albertville,al
+1099,Anniston,al
+1100,Auburn,wa
+1101,Glendale Heights,il
+1102,North Andover,ma
+1103,Revere,ma
+1104,Danbury,ct
+1105,Darien,il
+1106,Inkster,mi
+1107,Cleveland Heights,oh
+1108,East Hartford,ct
+1109,East Haven,ct
+1110,East Norwalk,ct
+1111,Enfield,ct
+1112,Glastonbury,ct
+1113,Guilford,ct
+1114,Hamden,ct
+1115,Hartford,ct
+1116,Killingly Center,ct
+1117,Ledyard,ct
+1118,Mansfield City,ct
+1119,Meriden,ct
+1120,Milford,ma
+1121,Montville Center,ct
+1122,Naugatuck,ct
+1123,New Britain,ct
+1124,New Canaan,ct
+1125,New Haven,in
+1126,New London,ct
+1127,Newington,ct
+1128,North Haven,ct
+1129,North Stamford,ct
+1130,Norwalk,ca
+1131,Norwich,ct
+1132,Plainville,ct
+1133,Shelton,ct
+1134,South Windsor,ct
+1135,Southbury,ct
+1136,Stamford,ct
+1137,Storrs,ct
+1138,Stratford,ct
+1139,Torrington,ct
+1140,Trumbull,ct
+1141,Wallingford,ct
+1142,Waterbury,ct
+1143,West Hartford,ct
+1144,West Haven,ct
+1145,West Torrington,ct
+1146,Westport,ct
+1147,Wethersfield,ct
+1148,Willimantic,ct
+1149,Wilton,ct
+1150,Windham,ct
+1151,Windsor,co
+1152,Wolcott,ct
+1153,Altoona,pa
+1154,Ames,ia
+1155,Ankeny,ia
+1156,Bettendorf,ia
+1157,Cedar Falls,ia
+1158,Cedar Rapids,ia
+1159,Clive,ia
+1160,Coralville,ia
+1161,Council Bluffs,ia
+1162,Davenport,ia
+1163,Des Moines,wa
+1164,Dubuque,ia
+1165,Fort Dodge,ia
+1166,Indianola,ia
+1167,Iowa City,ia
+1168,Johnston,ri
+1169,Marshalltown,ia
+1170,Mason City,ia
+1171,Muscatine,ia
+1172,North Liberty,ia
+1173,Ottumwa,ia
+1174,Sioux City,ia
+1175,Urbandale,ia
+1176,Waterloo,ia
+1177,Waukee,ia
+1178,West Des Moines,ia
+1179,Albany Park,il
+1180,Algonquin,il
+1181,Alsip,il
+1182,Arlington Heights,il
+1183,Aurora,co
+1184,Avondale,az
+1185,Batavia,ny
+1186,Bellwood,il
+1187,Belmont Cragin,il
+1188,Belvidere,il
+1189,Bensenville,il
+1190,Berwyn,il
+1191,Blue Island,il
+1192,Bolingbrook,il
+1193,Bourbonnais,il
+1194,Bradley,il
+1195,Bridgeport,ct
+1196,Bridgeview,il
+1197,Brighton Park,il
+1198,Brookfield,wi
+1199,Buffalo Grove,il
+1200,Burbank,ca
+1201,Calumet City,il
+1202,Carol Stream,il
+1203,Carpentersville,il
+1204,Champaign,il
+1205,Chatham,il
+1206,Chicago,il
+1207,Chicago Heights,il
+1208,Chicago Lawn,il
+1209,Cicero,ny
+1210,Country Club Hills,il
+1211,Crest Hill,il
+1212,Crystal Lake,il
+1213,DeKalb,il
+1214,Deerfield,il
+1215,Des Plaines,il
+1216,Dixon,ca
+1217,Dolton,il
+1218,Douglas,az
+1219,Downers Grove,il
+1220,East Garfield Park,il
+1221,East Moline,il
+1222,East Peoria,il
+1223,Elgin,il
+1224,Elk Grove Village,il
+1225,Elmhurst,ny
+1226,Elmwood Park,nj
+1227,Englewood,co
+1228,Evanston,il
+1229,Evergreen Park,il
+1230,Franklin Park,il
+1231,Freeport,ny
+1232,Gage Park,il
+1233,Galesburg,il
+1234,Geneva,il
+1235,Glen Ellyn,il
+1236,Glenview,il
+1237,Goodings Grove,il
+1238,Grand Boulevard,il
+1239,Grayslake,il
+1240,Gurnee,il
+1241,Hanover Park,il
+1242,Highland Park,il
+1243,Hinsdale,il
+1244,Hoffman Estates,il
+1245,Homer Glen,il
+1246,Huntley,il
+1247,Hyde Park,il
+1248,Irving Park,il
+1249,Joliet,il
+1250,Kankakee,il
+1251,Kenwood,il
+1252,La Grange,il
+1253,Lake Forest,ca
+1254,Lake Zurich,il
+1255,Lake in the Hills,il
+1256,Lansing,mi
+1257,Lemont,il
+1258,Libertyville,il
+1259,Lincoln Park,mi
+1260,Lincoln Square,il
+1261,Lisle,il
+1262,Lockport,ny
+1263,Logan Square,il
+1264,Lombard,il
+1265,Loves Park,il
+1266,Lower West Side,il
+1267,Machesney Park,il
+1268,Macomb,il
+1269,Matteson,il
+1270,Maywood,ca
+1271,McHenry,il
+1272,McKinley Park,il
+1273,Melrose Park,il
+1274,Mokena,il
+1275,Moline,il
+1276,Morgan Park,il
+1277,Morton,il
+1278,Morton Grove,il
+1279,Mount Greenwood,il
+1280,Mount Prospect,il
+1281,Mundelein,il
+1282,Naperville,il
+1283,Near North Side,il
+1284,Near South Side,il
+1285,New City,ny
+1286,New Lenox,il
+1287,Niles,oh
+1288,Normal,il
+1289,North Aurora,il
+1290,North Center,il
+1291,North Chicago,il
+1292,North Lawndale,il
+1293,North Peoria,il
+1294,Northbrook,il
+1295,Oak Forest,il
+1296,Oak Lawn,il
+1297,Oak Park,mi
+1298,Orland Park,il
+1299,Oswego,ny
+1300,Ottawa,il
+1301,Palatine,il
+1302,Palos Hills,il
+1303,Park Forest,il
+1304,Park Ridge,il
+1305,Pekin,il
+1306,Peoria,az
+1307,Portage Park,il
+1308,Prospect Heights,il
+1309,Rock Island,il
+1310,Rockford,il
+1311,Rogers Park,il
+1312,Rolling Meadows,il
+1313,Romeoville,il
+1314,Roselle,nj
+1315,Round Lake,il
+1316,Round Lake Beach,il
+1317,St. Charles,md
+1318,Schaumburg,il
+1319,Shorewood,il
+1320,Skokie,il
+1321,South Chicago,il
+1322,South Elgin,il
+1323,South Holland,il
+1324,South Lawndale,il
+1325,South Shore,il
+1326,Streamwood,il
+1327,Sycamore,il
+1328,Tinley Park,il
+1329,Uptown,il
+1330,Urbana,il
+1331,Vernon Hills,il
+1332,Villa Park,il
+1333,Wasco,ca
+1334,Waukegan,il
+1335,West Chicago,il
+1336,West Elsdon,il
+1337,West Englewood,il
+1338,West Garfield Park,il
+1339,West Lawn,il
+1340,West Ridge,il
+1341,West Town,il
+1342,Westmont,ca
+1343,Wheeling,wv
+1344,Wilmette,il
+1345,Woodridge,il
+1346,Yorkville,il
+1347,Zion,il
+1348,Crawfordsville,in
+1349,Crown Point,in
+1350,Dyer,in
+1351,East Chicago,in
+1352,Elkhart,in
+1353,Fort Wayne,in
+1354,Gary,in
+1355,Goshen,in
+1356,Granger,in
+1357,Griffith,in
+1358,Highland,ut
+1359,Hobart,in
+1360,Kokomo,in
+1361,LaPorte,in
+1362,Logansport,in
+1363,Merrillville,in
+1364,Michigan City,in
+1365,Mishawaka,in
+1366,Muncie,in
+1367,Munster,in
+1368,Noblesville,in
+1369,Portage,mi
+1370,Schererville,in
+1371,South Bend,in
+1372,Valparaiso,in
+1373,West Lafayette,in
+1374,Westfield,nj
+1375,Abington,pa
+1376,Acton,ma
+1377,Agawam,ma
+1378,Amesbury,ma
+1379,Amherst,ny
+1380,Amherst Center,ma
+1381,Attleboro,ma
+1382,Barnstable,ma
+1383,Belmont,ca
+1384,Beverly,ma
+1385,Beverly Cove,ma
+1386,Billerica,ma
+1387,Boston,ma
+1388,Brockton,ma
+1389,Brookline,ma
+1390,Cambridge,ma
+1391,Chelmsford,ma
+1392,Chelsea,ma
+1393,Chicopee,ma
+1394,Danvers,ma
+1395,Dedham,ma
+1396,Dracut,ma
+1397,Duxbury,ma
+1398,East Longmeadow,ma
+1399,Easthampton,ma
+1400,Everett,wa
+1401,Fairhaven,ma
+1402,Fall River,ma
+1403,Fitchburg,wi
+1404,Framingham,ma
+1405,Framingham Center,ma
+1406,Gloucester,ma
+1407,Grafton,ma
+1408,Haverhill,ma
+1409,Holden,ma
+1410,Holyoke,ma
+1411,Jamaica Plain,ma
+1412,Leominster,ma
+1413,Longmeadow,ma
+1414,Lowell,ma
+1415,Ludlow,ma
+1416,Lynn,ma
+1417,Malden,ma
+1418,Marblehead,ma
+1419,Marlborough,ma
+1420,Medford,or
+1421,Melrose,ny
+1422,Methuen,ma
+1423,Middleborough,ma
+1424,Milton,ga
+1425,Natick,ma
+1426,Needham,ma
+1427,New Bedford,ma
+1428,Newburyport,ma
+1429,North Chicopee,ma
+1430,Northampton,ma
+1431,Norton,ma
+1432,Palmer,ma
+1433,Peabody,ma
+1434,Pittsfield,ma
+1435,Randolph,nj
+1436,Reading,pa
+1437,Rockland,ma
+1438,Saugus,ma
+1439,Shrewsbury,ma
+1440,Somerset,nj
+1441,Somerville,ma
+1442,South Boston,ma
+1443,South Hadley,ma
+1444,South Peabody,ma
+1445,Southbridge,ma
+1446,Stoneham,ma
+1447,Stoughton,ma
+1448,Sudbury,ma
+1449,Swansea,ma
+1450,Taunton,ma
+1451,Tewksbury,ma
+1452,Wakefield,ny
+1453,Waltham,ma
+1454,Watertown,wi
+1455,Wellesley,ma
+1456,Westford,ma
+1457,Weymouth,ma
+1458,Winthrop,ma
+1459,Woburn,ma
+1460,Worcester,ma
+1461,Yarmouth,ma
+1462,Bangor,me
+1463,Biddeford,me
+1464,Lewiston,id
+1465,Saco,me
+1466,South Portland,me
+1467,South Portland Gardens,me
+1468,Waterville,me
+1469,West Scarborough,me
+1470,Westbrook,me
+1471,Adrian,mi
+1472,Allen Park,mi
+1473,Allendale,mi
+1474,Ann Arbor,mi
+1475,Auburn Hills,mi
+1476,Battle Creek,mi
+1477,Berkley,mi
+1478,Burton,mi
+1479,Clinton Township,mi
+1480,Dearborn,mi
+1481,Dearborn Heights,mi
+1482,Detroit,mi
+1483,East Lansing,mi
+1484,Eastpointe,mi
+1485,Farmington Hills,mi
+1486,Flint,mi
+1487,Forest Hills,ny
+1488,Garden City,ks
+1489,Grand Rapids,mi
+1490,Grandville,mi
+1491,Grosse Pointe Woods,mi
+1492,Hamtramck,mi
+1493,Haslett,mi
+1494,Hazel Park,mi
+1495,Holland,mi
+1496,Holt,mi
+1497,Jenison,mi
+1498,Kalamazoo,mi
+1499,Kentwood,mi
+1500,Livonia,mi
+1501,Madison Heights,mi
+1502,Marquette,mi
+1503,Midland,tx
+1504,Mount Clemens,mi
+1505,Muskegon,mi
+1506,Norton Shores,mi
+1507,Novi,mi
+1508,Okemos,mi
+1509,Pontiac,mi
+1510,Port Huron,mi
+1511,Redford,mi
+1512,Rochester Hills,mi
+1513,Romulus,mi
+1514,Roseville,ca
+1515,Royal Oak,mi
+1516,Southfield,mi
+1517,Southgate,mi
+1518,Saint Clair Shores,mi
+1519,Sterling Heights,mi
+1520,Traverse City,mi
+1521,Trenton,nj
+1522,Walker,mi
+1523,Warren,oh
+1524,Waterford,ct
+1525,Waverly,mi
+1526,Wayne,pa
+1527,Westland,mi
+1528,Wyandotte,mi
+1529,Wyoming,mi
+1530,Ypsilanti,mi
+1531,Albert Lea,mn
+1532,Andover,mn
+1533,Anoka,mn
+1534,Apple Valley,ca
+1535,Blaine,mn
+1536,Brooklyn Center,mn
+1537,Brooklyn Park,mn
+1538,Buffalo,ny
+1539,Burnsville,mn
+1540,Champlin,mn
+1541,Chanhassen,mn
+1542,Chaska,mn
+1543,Columbia Heights,mn
+1544,Coon Rapids,mn
+1545,Cottage Grove,mn
+1546,Crystal,mn
+1547,Eagan,mn
+1548,Eden Prairie,mn
+1549,Edina,mn
+1550,Elk River,mn
+1551,Faribault,mn
+1552,Forest Lake,mn
+1553,Fridley,mn
+1554,Golden Valley,mn
+1555,Ham Lake,mn
+1556,Hastings,ne
+1557,Hibbing,mn
+1558,Hopkins,mn
+1559,Inver Grove Heights,mn
+1560,Lakeville,mn
+1561,Lino Lakes,mn
+1562,Mankato,mn
+1563,Maple Grove,mn
+1564,Maplewood,nj
+1565,Minneapolis,mn
+1566,Minnetonka,mn
+1567,Minnetonka Mills,mn
+1568,Moorhead,mn
+1569,New Brighton,mn
+1570,New Hope,mn
+1571,Northfield,mn
+1572,Oakdale,ca
+1573,Otsego,mn
+1574,Owatonna,mn
+1575,Plymouth,mn
+1576,Prior Lake,mn
+1577,Ramsey,nj
+1578,Red Wing,mn
+1579,Richfield,mn
+1580,Rochester,ny
+1581,Rosemount,mn
+1582,Saint Louis Park,mn
+1583,Saint Michael,mn
+1584,Saint Paul,mn
+1585,Sartell,mn
+1586,Savage,mn
+1587,Shakopee,mn
+1588,Shoreview,mn
+1589,South Saint Paul,mn
+1590,West Coon Rapids,mn
+1591,West Saint Paul,mn
+1592,White Bear Lake,mn
+1593,Willmar,mn
+1594,Winona,mn
+1595,Woodbury,mn
+1596,Kirksville,mo
+1597,Fargo,nd
+1598,Grand Forks,nd
+1599,Jamestown,ny
+1600,West Fargo,nd
+1601,Bellevue,wa
+1602,Fremont,ca
+1603,Grand Island,ny
+1604,Kearney,ne
+1605,La Vista,ne
+1606,Lincoln,ri
+1607,Omaha,ne
+1608,Papillion,ne
+1609,Derry,nh
+1610,Derry Village,nh
+1611,East Concord,nh
+1612,Keene,nh
+1613,Laconia,nh
+1614,Merrimack,nh
+1615,Nashua,nh
+1616,Asbury Park,nj
+1617,Avenel,nj
+1618,Basking Ridge,nj
+1619,Bayonne,nj
+1620,Bergenfield,nj
+1621,Bloomfield,ct
+1622,Carteret,nj
+1623,Cliffside Park,nj
+1624,Clifton,co
+1625,Colonia,nj
+1626,Cranford,nj
+1627,Denville,nj
+1628,Dumont,nj
+1629,East Brunswick,nj
+1630,East Orange,nj
+1631,Edison,nj
+1632,Elizabeth,nj
+1633,Ewing,nj
+1634,Fair Lawn,nj
+1635,Fords,nj
+1636,Fort Lee,nj
+1637,Garfield,nj
+1638,Hackensack,nj
+1639,Harrison,ny
+1640,Hawthorne,ca
+1641,Hillsborough,nj
+1642,Hillside,ny
+1643,Hoboken,nj
+1644,Hopatcong Hills,nj
+1645,Irvington,nj
+1646,Iselin,nj
+1647,Jersey City,nj
+1648,Kearny,nj
+1649,Lakewood,wa
+1650,Linden,nj
+1651,Livingston,nj
+1652,Lodi,ca
+1653,Long Branch,nj
+1654,Lyndhurst,nj
+1655,Mahwah,nj
+1656,Marlboro,nj
+1657,New Brunswick,nj
+1658,New Milford,nj
+1659,North Arlington,nj
+1660,North Bergen,nj
+1661,North Plainfield,nj
+1662,Nutley,nj
+1663,Old Bridge,nj
+1664,Palisades Park,nj
+1665,Paramus,nj
+1666,Parsippany,nj
+1667,Passaic,nj
+1668,Paterson,nj
+1669,Perth Amboy,nj
+1670,Piscataway,nj
+1671,Point Pleasant,nj
+1672,Rahway,nj
+1673,Ridgewood,ny
+1674,Rutherford,nj
+1675,Sayreville,nj
+1676,Sayreville Junction,nj
+1677,Scotch Plains,nj
+1678,Secaucus,nj
+1679,South Old Bridge,nj
+1680,South Orange,nj
+1681,South Plainfield,nj
+1682,South River,nj
+1683,Sparta,nj
+1684,Summit,nj
+1685,Teaneck,nj
+1686,Tinton Falls,nj
+1687,Union,nj
+1688,Voorhees,nj
+1689,West Milford,nj
+1690,West New York,nj
+1691,West Orange,nj
+1692,Willingboro,nj
+1693,Woodbridge,nj
+1694,Wyckoff,nj
+1695,Amsterdam,ny
+1696,Astoria,ny
+1697,Baldwin,pa
+1698,Bath Beach,ny
+1699,Bay Shore,ny
+1700,Baychester,ny
+1701,Bayside,ca
+1702,Bellmore,ny
+1703,Bensonhurst,ny
+1704,Bethpage,ny
+1705,Binghamton,ny
+1706,Borough Park,ny
+1707,Brighton,co
+1708,Brighton Beach,ny
+1709,The Bronx,ny
+1710,Brooklyn,ny
+1711,Brooklyn Heights,ny
+1712,Bushwick,ny
+1713,Cambria Heights,ny
+1714,Canarsie,ny
+1715,Centereach,ny
+1716,Central Islip,ny
+1717,Cheektowaga,ny
+1718,Chinatown,ca
+1719,Clay,ny
+1720,Clifton Park,ny
+1721,Cohoes,ny
+1722,College Point,ny
+1723,Commack,ny
+1724,Coney Island,ny
+1725,Copiague,ny
+1726,Coram,ny
+1727,Corona,ca
+1728,Cortland,ny
+1729,Cypress Hills,ny
+1730,Depew,ny
+1731,Dix Hills,ny
+1732,Dyker Heights,ny
+1733,East Amherst,ny
+1734,East Elmhurst,ny
+1735,East Flatbush,ny
+1736,East Meadow,ny
+1737,East Massapequa,ny
+1738,East New York,ny
+1739,East Northport,ny
+1740,East Patchogue,ny
+1741,East Setauket,ny
+1742,East Tremont,ny
+1743,East Village,ny
+1744,Eastchester,ny
+1745,Eggertsville,ny
+1746,Elmira,ny
+1747,Elmont,ny
+1748,Emerson Hill,ny
+1749,Far Rockaway,ny
+1750,Farmingville,ny
+1751,Flatbush,ny
+1752,Flatlands,ny
+1753,Floral Park,ny
+1754,Fordham,ny
+1755,Fort Hamilton,ny
+1756,Franklin Square,ny
+1757,Fresh Meadows,ny
+1758,Glen Cove,ny
+1759,Glendale,ca
+1760,Gloversville,ny
+1761,Graniteville,ny
+1762,Gravesend,ny
+1763,Great Kills,ny
+1764,Greenburgh,ny
+1765,Greenpoint,ny
+1766,Harlem,ny
+1767,Hauppauge,ny
+1768,Hell's Kitchen,ny
+1769,Hempstead,ny
+1770,Henrietta,ny
+1771,Hicksville,ny
+1772,Holbrook,ny
+1773,Hollis,ny
+1774,Holtsville,ny
+1775,Howard Beach,ny
+1776,Huntington Station,ny
+1777,Hunts Point,ny
+1778,Irondequoit,ny
+1779,Islip,ny
+1780,Ithaca,ny
+1781,Jackson Heights,ny
+1782,Jamaica,ny
+1783,Kenmore,wa
+1784,Kensington,ny
+1785,Kew Gardens,ny
+1786,Kings Bridge,ny
+1787,Kings Park,ny
+1788,Kingston,ny
+1789,Kiryas Joel,ny
+1790,Lackawanna,ny
+1791,Lake Ronkonkoma,ny
+1792,Latham,ny
+1793,Laurelton,ny
+1794,Levittown,pa
+1795,Lindenhurst,ny
+1796,Long Island City,ny
+1797,Lynbrook,ny
+1798,Mamaroneck,ny
+1799,Mariners Harbor,ny
+1800,Maspeth,ny
+1801,Massapequa,ny
+1802,Massapequa Park,ny
+1803,Mastic,ny
+1804,Melville,ny
+1805,Merrick,ny
+1806,Middle Village,ny
+1807,Mineola,ny
+1808,Monsey,ny
+1809,Morris Heights,ny
+1810,Morrisania,ny
+1811,Mott Haven,ny
+1812,Nanuet,ny
+1813,New Rochelle,ny
+1814,New Springville,ny
+1815,New York City,ny
+1816,Newburgh,ny
+1817,Niagara Falls,ny
+1818,North Amityville,ny
+1819,North Babylon,ny
+1820,North Bay Shore,ny
+1821,North Bellmore,ny
+1822,North Massapequa,ny
+1823,North Tonawanda,ny
+1824,North Valley Stream,ny
+1825,Oceanside,ca
+1826,Ossining,ny
+1827,Ozone Park,ny
+1828,Park Slope,ny
+1829,Parkchester,ny
+1830,Pearl River,ny
+1831,Peekskill,ny
+1832,Plainview,tx
+1833,Plattsburgh,ny
+1834,Port Chester,ny
+1835,Port Richmond,ny
+1836,Port Washington,ny
+1837,Poughkeepsie,ny
+1838,Queens Village,ny
+1839,Queens,ny
+1840,Queensbury,ny
+1841,Rego Park,ny
+1842,Richmond Hill,ny
+1843,Rockville Centre,ny
+1844,Ronkonkoma,ny
+1845,Roosevelt,ny
+1846,Rotterdam,ny
+1847,Rye,ny
+1848,Saratoga Springs,ut
+1849,Sayville,ny
+1850,Scarsdale,ny
+1851,Schenectady,ny
+1852,Seaford,ny
+1853,Selden,ny
+1854,Sheepshead Bay,ny
+1855,Shirley,ny
+1856,Smithtown,ny
+1857,South Ozone Park,ny
+1858,Springfield Gardens,ny
+1859,Spring Valley,nv
+1860,Staten Island,ny
+1861,Sunnyside,wa
+1862,Syosset,ny
+1863,Syracuse,ut
+1864,Terrace Heights,ny
+1865,Throgs Neck,ny
+1866,Tremont,ny
+1867,Uniondale,ny
+1868,Unionport,ny
+1869,University Heights,ny
+1870,Utica,ny
+1871,Valley Stream,ny
+1872,Van Nest,ny
+1873,Vestal,ny
+1874,Wantagh,ny
+1875,Washington Heights,ny
+1876,West Albany,ny
+1877,West Babylon,ny
+1878,West Hempstead,ny
+1879,West Islip,ny
+1880,West Seneca,ny
+1881,Westbury,ny
+1882,White Plains,ny
+1883,Whitestone,ny
+1884,Woodhaven,ny
+1885,Woodmere,ny
+1886,Woodrow,ny
+1887,Woodside,ny
+1888,Yonkers,ny
+1889,Akron,oh
+1890,Alliance,oh
+1891,Ashtabula,oh
+1892,Austintown,oh
+1893,Avon Center,oh
+1894,Avon Lake,oh
+1895,Barberton,oh
+1896,Bay Village,oh
+1897,Berea,oh
+1898,Boardman,oh
+1899,Broadview Heights,oh
+1900,Brook Park,oh
+1901,Collinwood,oh
+1902,Cuyahoga Falls,oh
+1903,Defiance,oh
+1904,Delaware,oh
+1905,East Cleveland,oh
+1906,Eastlake,oh
+1907,Elyria,oh
+1908,Euclid,oh
+1909,Fairview Park,oh
+1910,Findlay,oh
+1911,Gahanna,oh
+1912,Garfield Heights,oh
+1913,Glenville,oh
+1914,Green,oh
+1915,Hilliard,oh
+1916,Hough,oh
+1917,Hudson,oh
+1918,Kent,wa
+1919,Lima,oh
+1920,Lorain,oh
+1921,Maple Heights,oh
+1922,Marysville,wa
+1923,Massillon,oh
+1924,Mayfield Heights,oh
+1925,Medina,oh
+1926,Mentor,oh
+1927,Middleburg Heights,oh
+1928,New Philadelphia,oh
+1929,North Canton,oh
+1930,North Olmsted,oh
+1931,North Ridgeville,oh
+1932,North Royalton,oh
+1933,Oregon,oh
+1934,Painesville,oh
+1935,Parma,oh
+1936,Parma Heights,oh
+1937,Perrysburg,oh
+1938,Piqua,oh
+1939,Rocky River,oh
+1940,Sandusky,oh
+1941,Shaker Heights,oh
+1942,Sidney,oh
+1943,Solon,oh
+1944,South Euclid,oh
+1945,Steubenville,oh
+1946,Stow,oh
+1947,Streetsboro,oh
+1948,Strongsville,oh
+1949,Sylvania,oh
+1950,Tallmadge,oh
+1951,Tiffin,oh
+1952,Toledo,oh
+1953,Twinsburg,oh
+1954,Wadsworth,oh
+1955,Westerville,oh
+1956,Westlake,oh
+1957,Willoughby,oh
+1958,Wooster,oh
+1959,Youngstown,oh
+1960,Allentown,pa
+1961,Allison Park,pa
+1962,Back Mountain,pa
+1963,Bensalem,pa
+1964,Bethel Park,pa
+1965,Bethlehem,pa
+1966,Carlisle,pa
+1967,Erie,co
+1968,Harrisburg,pa
+1969,Hazleton,pa
+1970,Johnstown,pa
+1971,King of Prussia,pa
+1972,Lansdale,pa
+1973,Limerick,pa
+1974,McKeesport,pa
+1975,Monroeville,pa
+1976,Mount Lebanon,pa
+1977,Murrysville,pa
+1978,Nicetown-Tioga,pa
+1979,Norristown,pa
+1980,Penn Hills,pa
+1981,Phoenixville,pa
+1982,Pittsburgh,pa
+1983,Plum,pa
+1984,Pottstown,pa
+1985,Radnor,pa
+1986,Scranton,pa
+1987,State College,pa
+1988,Upper Saint Clair,pa
+1989,West Mifflin,pa
+1990,Whitehall Township,pa
+1991,Wilkes-Barre,pa
+1992,Wilkinsburg,pa
+1993,Williamsport,pa
+1994,Willow Grove,pa
+1995,Barrington,ri
+1996,Central Falls,ri
+1997,Coventry,ri
+1998,Cranston,ri
+1999,East Providence,ri
+2000,Narragansett,ri
+2001,North Kingstown,ri
+2002,North Providence,ri
+2003,Pawtucket,ri
+2004,Providence,ri
+2005,Smithfield,ri
+2006,Warwick,ri
+2007,West Warwick,ri
+2008,Westerly,ri
+2009,Woonsocket,ri
+2010,Brookings,sd
+2011,Mitchell,sd
+2012,Sioux Falls,sd
+2013,Colchester,vt
+2014,Rutland,vt
+2015,South Burlington,vt
+2016,Appleton,wi
+2017,Ashwaubenon,wi
+2018,Beaver Dam,wi
+2019,Beloit,wi
+2020,Caledonia,wi
+2021,Cudahy,ca
+2022,De Pere,wi
+2023,Eau Claire,wi
+2024,Fond du Lac,wi
+2025,Green Bay,wi
+2026,Howard,wi
+2027,Janesville,wi
+2028,Kaukauna,wi
+2029,Kenosha,wi
+2030,La Crosse,wi
+2031,Manitowoc,wi
+2032,Marshfield,wi
+2033,Menasha,wi
+2034,Menomonee Falls,wi
+2035,Menomonie,wi
+2036,Mequon,wi
+2037,Middleton,wi
+2038,Milwaukee,wi
+2039,Muskego,wi
+2040,Neenah,wi
+2041,New Berlin,wi
+2042,North La Crosse,wi
+2043,Oak Creek,wi
+2044,Oconomowoc,wi
+2045,Onalaska,wi
+2046,Oshkosh,wi
+2047,Pleasant Prairie,wi
+2048,Racine,wi
+2049,River Falls,wi
+2050,Sheboygan,wi
+2051,South Milwaukee,wi
+2052,Stevens Point,wi
+2053,Sun Prairie,wi
+2054,Superior,wi
+2055,Waukesha,wi
+2056,Wausau,wi
+2057,Wauwatosa,wi
+2058,West Allis,wi
+2059,West Bend,wi
+2060,Wisconsin Rapids,wi
+2061,Weirton,wv
+2062,Weirton Heights,wv
+2063,Ansonia,ct
+2064,Branford,ct
+2065,Cheshire,ct
+2066,Fillmore,ca
+2067,Buckeye,az
+2068,Bullhead City,az
+2069,Casa Grande,az
+2070,Casas Adobes,az
+2071,Catalina Foothills,az
+2072,Chandler,az
+2073,Deer Valley,az
+2074,Drexel Heights,az
+2075,El Mirage,az
+2076,Eloy,az
+2077,Flagstaff,az
+2078,Flowing Wells,az
+2079,Fortuna Foothills,az
+2080,Fountain Hills,az
+2081,Gilbert,az
+2082,Goodyear,az
+2083,Green Valley,az
+2084,Kingman,az
+2085,Lake Havasu City,az
+2086,Marana,az
+2087,Maricopa,az
+2088,Maryvale,az
+2089,Mesa,az
+2090,Nogales,az
+2091,Oro Valley,az
+2092,Payson,ut
+2093,Phoenix,az
+2094,Prescott,az
+2095,Prescott Valley,az
+2096,Queen Creek,az
+2097,Rio Rico,az
+2098,Sahuarita,az
+2099,San Luis,az
+2100,Scottsdale,az
+2101,Sierra Vista,az
+2102,Somerton,az
+2103,Sun City,ca
+2104,Sun City West,az
+2105,Surprise,az
+2106,Tanque Verde,az
+2107,Tempe,az
+2108,Tempe Junction,az
+2109,Tucson,az
+2110,Yuma,az
+2111,Adelanto,ca
+2112,Agoura,ca
+2113,Agoura Hills,ca
+2114,Alameda,ca
+2115,Alhambra,az
+2116,Aliso Viejo,ca
+2117,Altadena,ca
+2118,Alum Rock,ca
+2119,American Canyon,ca
+2120,Anaheim,ca
+2121,Antelope,ca
+2122,Antioch,ca
+2123,Arcadia,ca
+2124,Arroyo Grande,ca
+2125,Artesia,ca
+2126,Arvin,ca
+2127,Atascadero,ca
+2128,Atwater,ca
+2129,Avocado Heights,ca
+2130,Azusa,ca
+2131,Bakersfield,ca
+2132,Baldwin Park,ca
+2133,Banning,ca
+2134,Barstow,ca
+2135,Barstow Heights,ca
+2136,Bay Point,ca
+2137,Bell,ca
+2138,Bell Gardens,ca
+2139,Bellflower,ca
+2140,Benicia,ca
+2141,Berkeley,ca
+2142,Beverly Hills,ca
+2143,Blythe,ca
+2144,Bostonia,ca
+2145,Boyle Heights,ca
+2146,Brawley,ca
+2147,Brea,ca
+2148,Buena Park,ca
+2149,Burlingame,ca
+2150,Calabasas,ca
+2151,Calexico,ca
+2152,Camarillo,ca
+2153,Cameron Park,ca
+2154,Campbell,ca
+2155,Canoga Park,ca
+2156,Canyon Country,ca
+2157,Carlsbad,nm
+2158,Carmichael,ca
+2159,Carson,ca
+2160,Castaic,ca
+2161,Castro Valley,ca
+2162,Cathedral City,ca
+2163,Ceres,ca
+2164,Cerritos,ca
+2165,Chatsworth,ca
+2166,Chico,ca
+2167,Chino,ca
+2168,Chino Hills,ca
+2169,Chowchilla,ca
+2170,Chula Vista,ca
+2171,Citrus Heights,ca
+2172,Claremont,ca
+2173,Clearlake,ca
+2174,Clovis,nm
+2175,Coachella,ca
+2176,Coalinga,ca
+2177,Colton,ca
+2178,Compton,ca
+2179,Corcoran,ca
+2180,Coronado,ca
+2181,Costa Mesa,ca
+2182,Covina,ca
+2183,Culver City,ca
+2184,Cupertino,ca
+2185,Daly City,ca
+2186,Dana Point,ca
+2187,Davis,ca
+2188,Delano,ca
+2189,Desert Hot Springs,ca
+2190,Diamond Bar,ca
+2191,Dinuba,ca
+2192,Downey,ca
+2193,Duarte,ca
+2194,East Rancho Dominguez,ca
+2195,East Hemet,ca
+2196,East Los Angeles,ca
+2197,East Palo Alto,ca
+2198,El Cajon,ca
+2199,El Centro,ca
+2200,El Cerrito,ca
+2201,El Dorado Hills,ca
+2202,El Monte,ca
+2203,El Segundo,ca
+2204,Elk Grove,ca
+2205,Encinitas,ca
+2206,Encino,ca
+2207,Escondido,ca
+2208,Fair Oaks,ca
+2209,Fallbrook,ca
+2210,Florin,ca
+2211,Folsom,ca
+2212,Fontana,ca
+2213,Foothill Farms,ca
+2214,Foster City,ca
+2215,Fountain Valley,ca
+2216,Fullerton,ca
+2217,Galt,ca
+2218,Garden Grove,ca
+2219,Gardena,ca
+2220,Gilroy,ca
+2221,Glen Avon,ca
+2222,Glendora,ca
+2223,Goleta,ca
+2224,Granite Bay,ca
+2225,Hacienda Heights,ca
+2226,Hanford,ca
+2227,Hayward,ca
+2228,Hemet,ca
+2229,Hercules,ca
+2230,Hermosa Beach,ca
+2231,Hesperia,ca
+2232,Hollister,ca
+2233,Huntington Beach,ca
+2234,Huntington Park,ca
+2235,Imperial,ca
+2236,Imperial Beach,ca
+2237,Indio,ca
+2238,Inglewood,ca
+2239,Irvine,ca
+2240,Isla Vista,ca
+2241,Koreatown,ca
+2242,La Cañada Flintridge,ca
+2243,La Habra,ca
+2244,La Jolla,ca
+2245,La Mesa,ca
+2246,La Mirada,ca
+2247,La Palma,ca
+2248,La Presa,ca
+2249,La Puente,ca
+2250,La Quinta,ca
+2251,La Verne,ca
+2252,Ladera Ranch,ca
+2253,Laguna,ca
+2254,Laguna Beach,ca
+2255,Laguna Hills,ca
+2256,Laguna Niguel,ca
+2257,Laguna Woods,ca
+2258,Lake Elsinore,ca
+2259,Lamont,ca
+2260,Lathrop,ca
+2261,Lawndale,ca
+2262,Lemon Grove,ca
+2263,Lemoore,ca
+2264,Lennox,ca
+2265,Linda,ca
+2266,Livermore,ca
+2267,Loma Linda,ca
+2268,Lomita,ca
+2269,Lompoc,ca
+2270,Los Altos,ca
+2271,Los Angeles,ca
+2272,Los Banos,ca
+2273,Los Gatos,ca
+2274,Lynwood,ca
+2275,Madera,ca
+2276,Manhattan Beach,ca
+2277,Manteca,ca
+2278,Marina,ca
+2279,Mead Valley,ca
+2280,Menifee,ca
+2281,Menlo Park,ca
+2282,Merced,ca
+2283,Millbrae,ca
+2284,Milpitas,ca
+2285,Jurupa Valley,ca
+2286,Mira Mesa,ca
+2287,Mission District,ca
+2288,Mission Viejo,ca
+2289,Modesto,ca
+2290,Monrovia,ca
+2291,Montebello,ca
+2292,Monterey,ca
+2293,Monterey Park,ca
+2294,Moorpark,ca
+2295,Moraga,ca
+2296,Moreno Valley,ca
+2297,Morgan Hill,ca
+2298,Mountain View,ca
+2299,Murrieta,ca
+2300,Napa,ca
+2301,National City,ca
+2302,Newport Beach,ca
+2303,Nipomo,ca
+2304,Norco,ca
+2305,North Highlands,ca
+2306,North Hollywood,ca
+2307,Northridge,ca
+2308,Novato,ca
+2309,Oakland,ca
+2310,Oakley,ca
+2311,Oildale,ca
+2312,Ontario,ca
+2313,Orangevale,ca
+2314,Orcutt,ca
+2315,Orinda,ca
+2316,Oroville,ca
+2317,Oxnard,ca
+2318,Pacifica,ca
+2319,Pacific Grove,ca
+2320,Palm Desert,ca
+2321,Palmdale,ca
+2322,Palo Alto,ca
+2323,Paradise,nv
+2324,Paramount,ca
+2325,Parlier,ca
+2326,Paso Robles,ca
+2327,Patterson,ca
+2328,Perris,ca
+2329,Petaluma,ca
+2330,Pico Rivera,ca
+2331,Pinole,ca
+2332,Placentia,ca
+2333,Pleasant Hill,ca
+2334,Pleasanton,ca
+2335,Pomona,ca
+2336,Port Hueneme,ca
+2337,Porterville,ca
+2338,Poway,ca
+2339,Prunedale,ca
+2340,Ramona,ca
+2341,Rancho Cordova,ca
+2342,Rancho Cucamonga,ca
+2343,Rancho Mirage,ca
+2344,Rancho Palos Verdes,ca
+2345,Rancho Penasquitos,ca
+2346,Rancho San Diego,ca
+2347,Rancho Santa Margarita,ca
+2348,Redlands,ca
+2349,Redondo Beach,ca
+2350,Redwood City,ca
+2351,Reedley,ca
+2352,Rialto,ca
+2353,Ridgecrest,ca
+2354,Rio Linda,ca
+2355,Ripon,ca
+2356,Riverbank,ca
+2357,Rocklin,ca
+2358,Rohnert Park,ca
+2359,Rosamond,ca
+2360,Rosemead,ca
+2361,Rosemont,ca
+2362,Rowland Heights,ca
+2363,Rubidoux,ca
+2364,Sacramento,ca
+2365,Salinas,ca
+2366,San Bernardino,ca
+2367,San Bruno,ca
+2368,San Carlos,ca
+2369,San Clemente,ca
+2370,San Diego,ca
+2371,San Dimas,ca
+2372,San Fernando,ca
+2373,San Francisco,ca
+2374,San Gabriel,ca
+2375,San Jacinto,ca
+2376,San Jose,ca
+2377,San Juan Capistrano,ca
+2378,San Leandro,ca
+2379,San Lorenzo,ca
+2380,San Luis Obispo,ca
+2381,San Mateo,ca
+2382,San Pablo,ca
+2383,San Pedro,ca
+2384,San Rafael,ca
+2385,San Ramon,ca
+2386,Sanger,ca
+2387,Santa Ana,ca
+2388,Santa Barbara,ca
+2389,Santa Clara,ca
+2390,Santa Clarita,ca
+2391,Santa Cruz,ca
+2392,Santa Fe Springs,ca
+2393,Santa Maria,ca
+2394,Santa Monica,ca
+2395,Santa Paula,ca
+2396,Santa Rosa,ca
+2397,Santee,ca
+2398,Saratoga,ca
+2399,Seal Beach,ca
+2400,Seaside,ca
+2401,North Hills,ca
+2402,Shafter,ca
+2403,Sherman Oaks,ca
+2404,Simi Valley,ca
+2405,Soledad,ca
+2406,South El Monte,ca
+2407,South Lake Tahoe,ca
+2408,South Pasadena,ca
+2409,South San Francisco,ca
+2410,South San Jose Hills,ca
+2411,South Whittier,ca
+2412,South Yuba City,ca
+2413,Stanton,ca
+2414,Stockton,ca
+2415,Studio City,ca
+2416,Suisun,ca
+2417,Sunland,ca
+2418,Sunnyvale,ca
+2419,Temecula,ca
+2420,Temple City,ca
+2421,Thousand Oaks,ca
+2422,Torrance,ca
+2423,Tracy,ca
+2424,Truckee,ca
+2425,Tujunga,ca
+2426,Tulare,ca
+2427,Turlock,ca
+2428,Tustin,ca
+2429,North Tustin,ca
+2430,Twentynine Palms,ca
+2431,Ukiah,ca
+2432,Upland,ca
+2433,Vacaville,ca
+2434,Valencia,ca
+2435,Valinda,ca
+2436,Vallejo,ca
+2437,Van Nuys,ca
+2438,Ventura,ca
+2439,Victorville,ca
+2440,Vincent,ca
+2441,Visalia,ca
+2442,Vista,ca
+2443,Walnut,ca
+2444,Walnut Creek,ca
+2445,Walnut Park,ca
+2446,Watsonville,ca
+2447,West Carson,ca
+2448,West Covina,ca
+2449,West Puente Valley,ca
+2450,West Sacramento,ca
+2451,Whittier,ca
+2452,Wildomar,ca
+2453,Willowbrook,ca
+2454,Winter Gardens,ca
+2455,Woodland,ca
+2456,Woodland Hills,ca
+2457,Yorba Linda,ca
+2458,Yuba City,ca
+2459,Yucaipa,ca
+2460,Yucca Valley,ca
+2461,Arvada,co
+2462,Broomfield,co
+2463,Cañon City,co
+2464,Castle Rock,co
+2465,Castlewood,co
+2466,Centennial,co
+2467,Cimarron Hills,co
+2468,Colorado Springs,co
+2469,Columbine,co
+2470,Commerce City,co
+2471,Denver,co
+2472,Durango,co
+2473,Fountain,co
+2474,Golden,co
+2475,Grand Junction,co
+2476,Greenwood Village,co
+2477,Highlands Ranch,co
+2478,Ken Caryl,co
+2479,Littleton,co
+2480,Montrose,co
+2481,Northglenn,co
+2482,Parker,co
+2483,Pueblo,co
+2484,Pueblo West,co
+2485,Sherrelwood,co
+2486,Southglenn,co
+2487,Thornton,co
+2488,Wheat Ridge,co
+2489,Dodge City,ks
+2490,Liberal,ks
+2491,Alamogordo,nm
+2492,Albuquerque,nm
+2493,Gallup,nm
+2494,Hobbs,nm
+2495,Las Cruces,nm
+2496,Los Lunas,nm
+2497,Rio Rancho,nm
+2498,Santa Fe,nm
+2499,South Valley,nm
+2500,Sunland Park,nm
+2501,Boulder City,nv
+2502,Carson City,nv
+2503,Fernley,nv
+2504,Las Vegas,nv
+2505,North Las Vegas,nv
+2506,Pahrump,nv
+2507,Reno,nv
+2508,Spanish Springs,nv
+2509,Sparks,nv
+2510,Sun Valley,nv
+2511,Sunrise Manor,nv
+2512,Whitney,nv
+2513,Amarillo,tx
+2514,Big Spring,tx
+2515,Del Rio,tx
+2516,Dumas,tx
+2517,Eagle Pass,tx
+2518,El Paso,tx
+2519,Hereford,tx
+2520,Horizon City,tx
+2521,Lubbock,tx
+2522,Odessa,tx
+2523,Pampa,tx
+2524,San Angelo,tx
+2525,Socorro,tx
+2526,Socorro Mission Number 1 Colonia,tx
+2527,West Odessa,tx
+2528,Cedar City,ut
+2529,Hurricane,ut
+2530,Saint George,ut
+2531,Anthem,az
+2532,Apache Junction,az
+2533,Ahwatukee Foothills,az
+2534,Juneau,ak
+2535,Arcata,ca
+2536,Eureka,ca
+2537,McKinleyville,ca
+2538,Redding,ca
+2539,Susanville,ca
+2540,Boulder,co
+2541,Fort Collins,co
+2542,Greeley,co
+2543,Longmont,co
+2544,Loveland,co
+2545,Boise,id
+2546,Caldwell,id
+2547,Coeur d'Alene,id
+2548,Eagle,id
+2549,Idaho Falls,id
+2550,Kuna,id
+2551,Lewiston Orchards,id
+2552,Moscow,id
+2553,Nampa,id
+2554,Pocatello,id
+2555,Post Falls,id
+2556,Rexburg,id
+2557,Twin Falls,id
+2558,Billings,mt
+2559,Bozeman,mt
+2560,Butte,mt
+2561,Kalispell,mt
+2562,Missoula,mt
+2563,Bismarck,nd
+2564,Mandan,nd
+2565,Minot,nd
+2566,Williston,nd
+2567,North Platte,ne
+2568,Elko,nv
+2569,Aloha,or
+2570,Altamont,or
+2571,Beaverton,or
+2572,Bend,or
+2573,Canby,or
+2574,Central Point,or
+2575,Coos Bay,or
+2576,Corvallis,or
+2577,Eugene,or
+2578,Forest Grove,or
+2579,Four Corners,fl
+2580,Grants Pass,or
+2581,Gresham,or
+2582,Happy Valley,or
+2583,Hayesville,or
+2584,Hermiston,or
+2585,Hillsboro,or
+2586,Keizer,or
+2587,Klamath Falls,or
+2588,Lake Oswego,or
+2589,Lents,or
+2590,McMinnville,or
+2591,Milwaukie,or
+2592,Newberg,or
+2593,Oak Grove,or
+2594,Oregon City,or
+2595,Pendleton,or
+2596,Redmond,wa
+2597,Roseburg,or
+2598,The Dalles,or
+2599,Tigard,or
+2600,Troutdale,or
+2601,Tualatin,or
+2602,West Linn,or
+2603,Wilsonville,or
+2604,Woodburn,or
+2605,Rapid City,sd
+2606,Bountiful,ut
+2607,Brigham City,ut
+2608,Clearfield,ut
+2609,Cottonwood Heights,ut
+2610,Draper,ut
+2611,Eagle Mountain,ut
+2612,East Millcreek,ut
+2613,Herriman,ut
+2614,Holladay,ut
+2615,Kaysville,ut
+2616,Kearns,ut
+2617,Layton,ut
+2618,Lehi,ut
+2619,Logan,ut
+2620,Magna,ut
+2621,Midvale,ut
+2622,Millcreek,ut
+2623,North Ogden,ut
+2624,North Salt Lake,ut
+2625,Ogden,ut
+2626,Orem,ut
+2627,Pleasant Grove,ut
+2628,Provo,ut
+2629,Riverton,ut
+2630,Roy,ut
+2631,Salt Lake City,ut
+2632,Sandy,ut
+2633,Sandy Hills,ut
+2634,South Jordan Heights,ut
+2635,South Jordan,ut
+2636,South Ogden,ut
+2637,South Salt Lake,ut
+2638,Spanish Fork,ut
+2639,Springville,ut
+2640,Taylorsville,ut
+2641,Tooele,ut
+2642,West Jordan,ut
+2643,West Valley City,ut
+2644,Anacortes,wa
+2645,Battle Ground,wa
+2646,Bellingham,wa
+2647,Bonney Lake,wa
+2648,Bothell,wa
+2649,Bremerton,wa
+2650,Burien,wa
+2651,Camas,wa
+2652,Centralia,wa
+2653,Cottage Lake,wa
+2654,Edmonds,wa
+2655,Ellensburg,wa
+2656,Fairwood,wa
+2657,Federal Way,wa
+2658,Five Corners,wa
+2659,Frederickson,wa
+2660,Graham,wa
+2661,Hazel Dell,wa
+2662,Issaquah,wa
+2663,Kennewick,wa
+2664,Kirkland,wa
+2665,Lacey,wa
+2666,Lake Stevens,wa
+2667,Lynnwood,wa
+2668,Maple Valley,wa
+2669,Martha Lake,wa
+2670,Mercer Island,wa
+2671,Mill Creek,wa
+2672,Moses Lake,wa
+2673,Mountlake Terrace,wa
+2674,Mukilteo,wa
+2675,North Creek,wa
+2676,Oak Harbor,wa
+2677,Olympia,wa
+2678,Opportunity,wa
+2679,Orchards,wa
+2680,Pasco,wa
+2681,Port Angeles,wa
+2682,Pullman,wa
+2683,Puyallup,wa
+2684,Renton,wa
+2685,Richland,wa
+2686,Salmon Creek,wa
+2687,Sammamish,wa
+2688,SeaTac,wa
+2689,Seattle,wa
+2690,Shoreline,wa
+2691,Silverdale,wa
+2692,South Hill,wa
+2693,Spanaway,wa
+2694,Spokane,wa
+2695,Spokane Valley,wa
+2696,Tacoma,wa
+2697,Tukwila,wa
+2698,Tumwater,wa
+2699,University Place,wa
+2700,Vancouver,wa
+2701,Walla Walla,wa
+2702,Washougal,wa
+2703,Wenatchee,wa
+2704,West Lake Sammamish,wa
+2705,West Lake Stevens,wa
+2706,Bainbridge Island,wa
+2707,Yakima,wa
+2708,Casper,wy
+2709,Cheyenne,wy
+2710,Gillette,wy
+2711,Laramie,wy
+2712,Rock Springs,wy
+2713,Sheridan,wy
+2714,American Fork,ut
+2715,Kahului,hi
+2716,Kailua,hi
+2717,Kaneohe,hi
+2718,Kīhei,hi
+2719,Makakilo City,hi
+2720,Mililani Town,hi
+2721,Pearl City,hi
+2722,Wahiawā,hi
+2723,Wailuku,hi
+2724,Waipahu,hi
+2725,‘Ewa Gentry,hi
+2726,Hilo,hi
+2727,Honolulu,hi
+2728,Eagle River,ak
+2729,Fairbanks,ak
+2730,Anchorage,ak
+2731,Badger,ak
+2732,Johns Creek,ga
+2733,Cutler Bay,fl
+2734,Morningside Heights,ny
+2735,East Harlem,ny
+2736,Alafaya,fl
+2737,Millburn,nj
+2738,Briarwood,ny
+2739,Stevenson Ranch,ca
+2740,Fort Bragg,nc
+2741,Kapolei,hi
+2742,City of Milford (balance),ct
+2743,City of Sammamish,wa
+2744,Silver Firs,wa
+2745,Vineyard,ca
+2746,Gramercy Park,ny
+2747,Kew Gardens Hills,ny
+2748,Wallingford Center,ct
+2749,Braintree,ma
+2750,North Attleborough Center,ma
+2751,Bel Air North,md
+2752,Bel Air South,md
+2753,Mercerville-Hamilton Square,nj
+2754,Oxon Hill-Glassmanor,md
+2755,Gates-North Gates,ny
+2756,Greater Upper Marlboro,md
+2757,West Falls Church,va
+2758,Lanham-Seabrook,md
+2759,Lutherville-Timonium,md
+2760,Setauket-East Setauket,ny
+2761,Suitland-Silver Hill,md
+2762,Fort Leonard Wood,mo
+2763,Saginaw Township North,mi
+2764,West Bloomfield Township,mi
+2765,East Lake-Orient Park,fl
+2766,Greater Northdale,fl
+2767,Candler-McAfee,ga
+2768,Sandalfoot Cove,fl
+2769,University,fl
+2770,Vero Beach South,fl
+2771,Kendall West,fl
+2772,Palm River-Clair Mel,fl
+2773,Arden-Arcade,ca
+2774,Bryn Mawr-Skyway,wa
+2775,Casa de Oro-Mount Helix,ca
+2776,Florence-Graham,ca
+2777,Fort Hood,tx
+2778,Inglewood-Finn Hill,wa
+2779,La Crescenta-Montrose,ca
+2780,East Hill-Meridian,wa
+2781,Picnic Point-North Lynnwood,wa
+2782,Security-Widefield,co
+2783,Union Hill-Novelty Hill,wa
+2784,West Whittier-Los Nietos,ca
+2785,Summerlin South,nv
+2786,Makakilo,hi
+2787,Schofield Barracks,hi
+2788,Tri-Cities,wa
+2789,San Tan Valley,az
+2790,Midway,fl
+2791,Oakleaf Plantation,fl
+2792,East Honolulu,hi
+2793,Old Jamestown,mo
+2794,Bothell West,wa
+2795,Eastmont,wa
+2796,Mill Creek East,wa
+2797,Enchanted Hills,nm
+2798,West Hills,ca
+2799,Detroit-Shoreway,oh
+2800,Clark-Fulton,oh
+2801,The Acreage,fl
+2802,Eastvale,ca
+2803,Oak Hill,va
+2804,Bridgewater,nj
+2805,Warren Township,nj
+2806,Fairfield Heights,in
+2807,Chicago Loop,il
+2808,Greater Grand Crossing,il
+2809,Auburn Gresham,il
+2810,Financial District,ny
+2811,Sunset Park,ny
+2812,South Kingstown,ri
+2813,Noe Valley,ca
+2814,Visitacion Valley,ca
+2815,Northdale,fl
+2816,Meadowbrook,va
+2817,Hot Springs National Park,ar
+2818,Dixiana,al
+2819,Cranberry Township,pa
+2820,Center City,pa
+2821,Silver Lake,ca
+2822,Echo Park,ca
+2823,St. Johns,fl
+2824,Stonecrest,ga
+2825,Cortlandt Manor,ny
+2826,Valley Glen,ca
+2827,Encanto,az
+2828,Central City,az
+2829,New York,ny

@@ -3,7 +3,7 @@ from model.db_layer import DatabaseLayer, EDO
 
 app = Flask(__name__)
 db = DatabaseLayer()
-edo_params = 'ids', 'names', 'mobile_numbers', 'emails', 'addresses'
+edo_params = 'ids', 'names', 'mobileNumbers', 'emails', 'addresses'
 
 @app.route('/get_edos', methods=['POST'])
 def get_edos():
@@ -14,7 +14,7 @@ def get_edos():
         edos, message = db.get_edos(
             ids=data.get('ids', []),
             names=data.get('names', []),
-            mobile_numbers=data.get('mobile_numbers', []),
+            mobile_numbers=data.get('mobileNumbers', []),
             emails=data.get('emails', []),
             addresses=data.get('addresses', [])
         )
@@ -67,7 +67,7 @@ def delete_edos():
     deleted_records, err = db.delete_edos(
         ids=request.json.get('ids', []),
         names=request.json.get('names', []),
-        mobile_numbers=request.json.get('mobile_numbers', []),
+        mobile_numbers=request.json.get('mobileNumbers', []),
         emails=request.json.get('emails', []),
         addresses=request.json.get('addresses', [])
     )
