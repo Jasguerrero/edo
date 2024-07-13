@@ -1,14 +1,28 @@
+import logging
 from flask import Flask, jsonify, request
 from model.db_layer import DatabaseLayer, EDO
 
 app = Flask(__name__)
 db = DatabaseLayer()
-edo_params = 'ids', 'names', 'mobileNumbers', 'emails', 'addresses'
+edo_params = (
+    'ids', 
+    'names', 
+    'mobileNumbers', 
+    'emails', 
+    'contacts', 
+    'addresses',
+    'cities',
+    'states',
+    'zipCodes',
+    'websites'
+)
+
+logging.basicConfig(level=logging.DEBUG)
 
 @app.route('/get_edos', methods=['POST'])
 def get_edos():
     try:
-        data = request.json
+        data = request.get_json()
         if not _is_valid(data):
             return jsonify({'message': f"Unexpected data on request {type(data['names'])}"}), 400
         edos, message = db.get_edos(
@@ -16,7 +30,12 @@ def get_edos():
             names=data.get('names', []),
             mobile_numbers=data.get('mobileNumbers', []),
             emails=data.get('emails', []),
-            addresses=data.get('addresses', [])
+            contacts=data.get('contacts', []),
+            addresses=data.get('addresses', []),
+            cities=data.get('cities', []),
+            states=data.get('states', []),
+            zip_codes=data.get('zipCodes', []),
+            websites=data.get('websites', [])
         )
         data_list = [
             {
@@ -25,6 +44,11 @@ def get_edos():
                 'mobileNumber': edo.mobile_number,
                 'email': edo.email,
                 'physicalAddress': edo.address,
+                'contact': edo.contact,
+                'city': edo.city,
+                'state': edo.state,
+                'zipCode': edo.zip_code,
+                'website': edo.website,
                 'created_at': edo.created_at
             }
             for edo in edos
@@ -47,10 +71,16 @@ def post_edos():
         return jsonify({'message': 'Missing data on request'}), 400
     
     edo = EDO(
-        request.json['name'], 
-        request.json.get('mobileNumber', ''), 
-        request.json.get('email', ''),
-        request.json.get('address', '')
+        #{"name": "test", "mobileNumber": "123", "email": "email", "address": "address", "contact": "co", "city": "city", "state": "NY", "zipCode": "123", "website": "www"}
+        name=request.json['name'], 
+        mobile_number=request.json.get('mobileNumber', ''), 
+        email=request.json.get('email', ''),
+        address=request.json.get('address', ''),
+        contact=request.json.get('contact', ''),
+        city=request.json.get('city', ''),
+        state=request.json.get('state', ''),
+        zip_code=request.json.get('zipCode', ''),
+        website=request.json.get('website', '')
     )
     err = db.post_edo(edo)
     if err is not None:

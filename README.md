@@ -32,6 +32,32 @@ Payload example
     "emails": ["abc@abc.com", "def@def.com"],
     "mobileNumbers": ["..."],
     "emails" ["..."],
-    "addresses": ["..."]
+    "addresses": ["..."],
+    "contacts": ["..."],
+    "cities": ["..."],
+    "states": ["..."],
+    "zipCodes": ["..."],
+    "websites": ["..."]
+}
+```
+
+### Add new data
+```
+curl -X POST -H "Content-Type: application/json" -d '[PAYLOAD]' http://localhost:5050/post_edo
+```
+
+Payload example
+```
+{
+    "name": "test",  # required field
+    "email": "abc@abc.com",
+    "mobileNumber": "...",
+    "email" "...",
+    "address": "...",
+    "contact": "...",
+    "city": "...",
+    "state": "...",
+    "zipCode": "...",
+    "website": "..."
 }
 ```

@@ -3,6 +3,11 @@ CREATE TABLE IF NOT EXISTS edos (
     name VARCHAR(50) NOT NULL,
     mobileNumber VARCHAR(50),
     email VARCHAR(50),
+    contact VARCHAR(50),
     physicalAddress VARCHAR(50),
+    city VARCHAR(50),
+    state VARCHAR(50),
+    zipCode VARCHAR(50),
+    website VARCHAR(50),
     created_at TIMESTAMP WITHOUT TIME ZONE NOT NULL DEFAULT (CURRENT_TIMESTAMP AT TIME ZONE 'UTC')
 );

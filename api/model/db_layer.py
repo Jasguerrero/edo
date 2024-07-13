@@ -2,16 +2,28 @@ import psycopg2
 from psycopg2 import Error
 
 class EDO:
-    def __init__(self, name, mobile_number="", email="", address="", _id="", created_at=None) -> None:
+    def __init__(
+            self, name, mobile_number="", email="", address="", 
+            _id="", contact="", city="", state="", zip_code="",
+            website="", created_at=None
+        ) -> None:
         self.name = name
         self.mobile_number = mobile_number
         self.email = email
         self.address = address
         self._id = _id
+        self.contact = contact
+        self.city = city
+        self.state = state
+        self.zip_code = zip_code
+        self.website = website
         self.created_at = created_at
 
 class Query:
-    def __init__(self, ids=[], names=[], mobile_numbers=[], emails=[], addresses=[]):
+    def __init__(
+            self, ids=[], names=[], mobile_numbers=[], emails=[], addresses=[],
+            contacts=[], cities=[], states=[], zip_codes=[], websites=[]
+        ):
         self.filter_values = {}
         if ids:
             self.filter_values['id'] = ids
@@ -23,6 +35,16 @@ class Query:
             self.filter_values['email'] = emails
         if addresses:
             self.filter_values['physicalAddress'] = addresses
+        if contacts:
+            self.filter_values['contact'] = contacts
+        if cities:
+            self.filter_values['city'] = cities
+        if states:
+            self.filter_values['state'] = states
+        if zip_codes:
+            self.filter_values['zipCode'] = zip_codes
+        if websites:
+            self.filter_values['website'] = websites
 
         conditions = []
         params = []
@@ -41,8 +63,14 @@ class Query:
         self.params = tuple(params)
 
 class DatabaseLayer:
-    def get_edos(self, ids=[], names=[], mobile_numbers=[], emails=[], addresses=[]):
-        query = Query(ids, names, mobile_numbers, emails, addresses)
+    def get_edos(
+            self, ids=[], names=[], mobile_numbers=[], emails=[], addresses=[],
+            contacts=[], cities=[], states=[], zip_codes=[], websites=[]
+        ):
+        query = Query(
+            ids, names, mobile_numbers, emails, addresses, contacts, cities,
+            states, zip_codes, websites
+        )
         connection = self._db_connection()
         cursor = connection.cursor()
         cursor.execute(query.select, query.params)
@@ -55,8 +83,13 @@ class DatabaseLayer:
                     name = row[1],
                     mobile_number = row[2],
                     email = row[3],
-                    address = row[4],
-                    created_at = row[5]
+                    contact = row[4],
+                    address = row[5],
+                    city = row[6],
+                    state = row[7],
+                    zip_code = row[8],
+                    website = row[9],
+                    created_at = row[10]
                 )
                 for row in rows
             ]
@@ -66,13 +99,21 @@ class DatabaseLayer:
     
     def post_edo(self, edo: EDO):
         insert_query = """
-        INSERT INTO edos (name, mobileNumber, email, physicalAddress) 
-        VALUES (%s, %s, %s, %s);
+        INSERT INTO edos 
+        (name, mobileNumber, email, contact, physicalAddress, city, state, zipCode, website) 
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
         try:
             connection = self._db_connection()
             cursor = connection.cursor()
-            cursor.execute(insert_query, (edo.name, edo.mobile_number, edo.email, edo.address))
+            cursor.execute(
+                insert_query, 
+                (
+                    edo.name, edo.mobile_number, 
+                    edo.email, edo.contact, edo.address,
+                    edo.city, edo.state, edo.zip_code, edo.website
+                )
+            )
             connection.commit()
             cursor.close()
             connection.close()
