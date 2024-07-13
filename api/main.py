@@ -3,6 +3,7 @@ from flask import Flask, jsonify, request
 from model.db_layer import DatabaseLayer, EDO
 
 app = Flask(__name__)
+logging.basicConfig(level=logging.DEBUG)
 db = DatabaseLayer()
 edo_params = (
     'ids', 
@@ -16,8 +17,6 @@ edo_params = (
     'zipCodes',
     'websites'
 )
-
-logging.basicConfig(level=logging.DEBUG)
 
 @app.route('/get_edos', methods=['POST'])
 def get_edos():
@@ -71,7 +70,6 @@ def post_edos():
         return jsonify({'message': 'Missing data on request'}), 400
     
     edo = EDO(
-        #{"name": "test", "mobileNumber": "123", "email": "email", "address": "address", "contact": "co", "city": "city", "state": "NY", "zipCode": "123", "website": "www"}
         name=request.json['name'], 
         mobile_number=request.json.get('mobileNumber', ''), 
         email=request.json.get('email', ''),
