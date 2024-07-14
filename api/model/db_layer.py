@@ -1,6 +1,8 @@
 import psycopg2
 from psycopg2 import Error
 
+from logger import Logger
+
 class EDO:
     def __init__(
             self, name, mobile_number="", email="", address="", 
@@ -63,6 +65,9 @@ class Query:
         self.params = tuple(params)
 
 class DatabaseLayer:
+    def __init__(self, logger: Logger):
+        self._logger = logger
+    
     def get_edos(
             self, ids=[], names=[], mobile_numbers=[], emails=[], addresses=[],
             contacts=[], cities=[], states=[], zip_codes=[], websites=[]
@@ -120,8 +125,16 @@ class DatabaseLayer:
         except Exception as error:
             return str(error)
         
-    def delete_edos(self, ids=[], names=[], mobile_numbers=[], emails=[], addresses=[]):
-        edos, _ = self.get_edos(ids, names, mobile_numbers, emails, addresses)
+    def delete_edos(
+            self, ids=[], names=[], mobile_numbers=[], 
+            emails=[], addresses=[], contacts=[], cities=[], states=[],
+            zip_codes=[], websites=[]
+        ):
+        edos, _ = self.get_edos(
+            ids=ids, names=names, mobile_numbers=mobile_numbers, emails=emails, 
+            addresses=addresses, contacts=contacts, cities=cities, states=states,
+            zip_codes=zip_codes, websites=websites
+        )
         if not edos:
             return 0, None
         try:
@@ -138,12 +151,14 @@ class DatabaseLayer:
     
     def _db_connection(self):
         try:
-            return psycopg2.connect(
+            connection = psycopg2.connect(
                 dbname='edo_db',
                 user='admin',
                 password='password',
                 host='db',
                 port='5432'
             )
+            self._logger.info('Connected to db')
+            return connection
         except (Exception, Error) as error:
-            print(f"Error connecting to db: {error.__str__}")
+            self._logger.info(f"Error connecting to db: {error}")

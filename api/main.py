@@ -1,10 +1,11 @@
 import logging
 from flask import Flask, jsonify, request
 from model.db_layer import DatabaseLayer, EDO
+from logger import Logger
 
 app = Flask(__name__)
-logging.basicConfig(level=logging.DEBUG)
-db = DatabaseLayer()
+logging.basicConfig(level=logging.INFO)
+db = DatabaseLayer(Logger(logging))
 edo_params = (
     'ids', 
     'names', 
@@ -97,7 +98,12 @@ def delete_edos():
         names=request.json.get('names', []),
         mobile_numbers=request.json.get('mobileNumbers', []),
         emails=request.json.get('emails', []),
-        addresses=request.json.get('addresses', [])
+        addresses=request.json.get('addresses', []),
+        contacts=request.json.get('contacts', []),
+        cities=request.json.get('cities', []),
+        states=request.json.get('states', []),
+        zip_codes=request.json.get('zipCodes', []),
+        websites=request.json.get('websites', [])
     )
 
     if err is not None:
