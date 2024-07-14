@@ -3,7 +3,7 @@
 ## How to run
 
 - [Install Docker](https://docs.docker.com/engine/install/)
-- On terminal
+- Open a terminal and run
 
 ```
 docker-compose up --build
@@ -11,7 +11,7 @@ docker-compose up --build
 
 ## Web crawler
 
-If no city is provided it will run NYC by default
+If no city is provided, it will default to running NYC on startup with docker-compose. You can check the logs with `docker logs placer-edo_web-crawler_1`. After seeing `Web crawler finished for city={city}`, you can query the results:
 
 ```
 docker-compose run web-crawler [CITY]
@@ -64,16 +64,16 @@ Payload example
 
 ## PG Admin
 
-- To connect to the web client go to `localhost:6060` email: admin@admin.com | password: password
+- Access the web client at `localhost:6060` with credentials: email: admin@admin.com | password: password
 - Connect to the postgresdb with username: admin | password: password
 
 
-## To re run an specific city
+## Re-running a Specific City
 
-By default the cache is persisted 5 hours so by design if a city is rerunned before this interval you will get a log such as `City: {city} already processed.`. If you want to recalculate everything the cache should be delated following the next steps:
+By default, the cache is persisted for 5 hours. If a city is rerun within this interval, you will see a log message like `City: {city} already processed.` If you want to recalculate everything, delete the cache by following these steps:
 
 - Access `localhost:5540`
-- Connect to the redis instance with hostname: `cache` port: `6379`
+- Connect to the Redis instance with hostname: `cache` port: `6379`
 - Delete all the keys related to the city
   - Example keys to delete for city: "New York"
   - new_york_edo_full_contact
@@ -81,4 +81,4 @@ By default the cache is persisted 5 hours so by design if a city is rerunned bef
   - New York
   - new_york_edo_contact
 
-Keep in mind that rerunning a city do not delete the data on the postgres database so you might end with more than one copy of the EDOs (you can use the API or the PGAdmin to delete records)
+Note that rerunning a city does not delete data from the PostgreSQL database, so you may have multiple copies of EDOs. Use the API, PGAdmin, or delete the folder `./data/db` to manage records appropriately.
