@@ -1,4 +1,3 @@
-import os
 import time
 from copy import deepcopy
 from tqdm import tqdm
@@ -10,13 +9,14 @@ from bs4 import BeautifulSoup
 from web_crawling.edo_contact_parser import EDOContactInfoParser
 from web_crawling.edo_directory import EDODirectory
 from web_crawling.web_crawler_errors import WebCrawlerError, NoResultsFoundError
+from storage.storage_client import StorageClient
 
 
 class EDOContactCrawler:
     DEFAULT_USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 
-    def __init__(self, storage_client, user_agent=None):
-        self.edo_directory = EDODirectory(storage_client)
+    def __init__(self, storage_client: StorageClient, logging, user_agent=None):
+        self.edo_directory = EDODirectory(logging, storage_client)
         self.contact_parser = EDOContactInfoParser()
         self._user_agent = self.DEFAULT_USER_AGENT if not user_agent else user_agent
         self._storage_client = storage_client
@@ -52,8 +52,8 @@ class EDOContactCrawler:
 
     def _fetch_edo_url(self, url):
         headers = {'User-Agent': self._user_agent}
-        response = requests.get(url, headers=headers)
-        time.sleep(10)  # to avoid getting throttled or denied
+        response = requests.get(url, headers=headers, timeout=15)
+        time.sleep(5)  # to avoid getting throttled or denied
         if response.status_code != 200:
             raise WebCrawlerError("Failed to fetch Cause IQ results", response.status_code)
         return response.text
@@ -87,15 +87,14 @@ class EDOContactCrawler:
         self._storage_client.save(df, filename)
         return contact_results
 
-    def _load_csv(self, filename):
-        return self._storage_client.get_from_table(filename)
+    def _load_dataframe(self, filename):
+        return self._storage_client.get_dataframe(filename)
 
     def get_edo_contact_info(self, city):
-        filename = f"{self._get_filename(city)}"
-        full_filename = f"{filename}.csv"
-        # TODO: Replace for a query check if using other than CSV
-        if not os.path.isfile(f"/app/data/{full_filename}"):
+        filename = self._get_filename(city)
+        df = self._storage_client.get_dataframe(filename)
+        if df.empty:
             results = self.edo_directory.get_city_edos(city)
             self.build_edo_contact_info(results, city)
 
-        return self._load_csv(f"{filename}")
+        return self._load_dataframe(f"{filename}")

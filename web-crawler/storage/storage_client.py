@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-
+import pandas as pd
 
 class StorageClient(ABC):
 
@@ -12,8 +12,11 @@ class StorageClient(ABC):
         pass
 
     @abstractmethod
-    def get_from_table(self, table: str):
+    def get_from_table(self, table: str) -> pd.DataFrame:
         pass
 
     def is_dry_run(self) -> bool:
         return self._dry_run
+    
+    def get_dataframe(self, name: str) -> pd.DataFrame:
+        pass

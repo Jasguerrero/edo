@@ -1,4 +1,3 @@
-import os
 import re
 from copy import deepcopy
 
@@ -18,7 +17,10 @@ class EDOMoreContactInfoCrawler:
     EMAIL_KEY = "email"
 
     def __init__(self, logging, storage_client: StorageClient):
-        self.edo_contact_info = EDOContactCrawler(storage_client)
+        self.edo_contact_info = EDOContactCrawler(
+            storage_client=storage_client,
+            logging=logging
+        )
         self._storage_client = storage_client
         self._logging = logging
 
@@ -105,21 +107,19 @@ class EDOMoreContactInfoCrawler:
 
         df = pd.DataFrame.from_records(contact_results)
         filename = self._get_filename(city)
-        self._storage_client.save(df, f"{filename}")
+        self._storage_client.save(df, filename)
         return contact_results
 
-    def _load_csv(self, filename):
-        return self._storage_client.get_from_table(filename)
+    def _load_dataframe(self, filename):
+        return self._storage_client.get_dataframe(filename)
 
     def get_edo_full_contact_info(self, city):
         self._logging.info("get full contact info")
         filename = f"{self._get_filename(city)}"
-        full_filename = f"{filename}.csv"
-
-        # TODO: Replace for a query check if using other than CSV
-
-        if not os.path.isfile(f"/app/data/{full_filename}"):
+        #full_filename = f"{filename}.csv"
+        df = self._storage_client.get_dataframe(filename)
+        if df.empty:
             results = self.edo_contact_info.get_edo_contact_info(city)
             self.fill_more_contact_info(results, city)
 
-        return self._load_csv(filename)
+        return self._load_dataframe(filename)

@@ -8,11 +8,10 @@ from storage.storage_client import StorageClient
 
 class CacheClient(StorageClient):
     def save(self, data: Union[str, pd.DataFrame], table: str, if_exists: str = None):
-        ttl = 3600
+        ttl = 3600 * 5 # persist cache for 5 hours 
         connection = self._connection()
         if type(data) is not str: # Handle dataframe store
             data = pickle.dumps(data)
-            #data = data.to_json(orient='split')
         connection.set(table, data, ex=ttl)
         connection.close()
 
@@ -22,10 +21,11 @@ class CacheClient(StorageClient):
         connection.close()
         return val
     
-    def get_dataframe(self, key: str):
+    def get_dataframe(self, key: str) -> pd.DataFrame:
         connection = self._connection()
         val = connection.get(key)
-        if not key:
+        if not val:
+            self._logging.info(f"DataFrame not found key={key}")
             val = pd.DataFrame()
         else:
             val = pickle.loads(val)

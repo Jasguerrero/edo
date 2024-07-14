@@ -33,18 +33,15 @@ def main(csv_storage_client: CSVStorageClient):
         logging.info(f"Starting fetch for EDOs in {city}")
     db_storage_client = DBStorageClient(logging=logging)
     full_contact_info_crawler = EDOMoreContactInfoCrawler(
-        storage_client=csv_storage_client,
+        storage_client=cache,
         logging=logging
     )
     full_contact_info = full_contact_info_crawler.get_edo_full_contact_info(city)
     final_df = format_final_df(full_contact_info)
-    city_name = city.lower().replace(" ", "_")
-    filename = f"{city_name}_edo_final"
-    csv_storage_client.save(final_df, filename)
-    cache.save(final_df, filename)
-    logging.info(cache.get_dataframe(filename))
-    #db_storage_client.save(final_df, 'edos')
-    #cache.save('Done', city)
+    logging.info('Saving data into database')
+    db_storage_client.save(final_df, 'edos')
+    cache.save('Done', city)
+    logging.info(f"Web crawler finished for city={city}")
     
 if __name__ == '__main__':
     csv_storage_client = CSVStorageClient(logging=logging)
