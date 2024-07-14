@@ -78,6 +78,7 @@ class DatabaseLayer:
         )
         connection = self._db_connection()
         cursor = connection.cursor()
+        self._logger.info(f"Getting edos with query: {query.select % query.params}")
         cursor.execute(query.select, query.params)
         result = []
         if cursor.pgresult_ptr is not None:
@@ -111,13 +112,15 @@ class DatabaseLayer:
         try:
             connection = self._db_connection()
             cursor = connection.cursor()
+            params = (
+                edo.name, edo.mobile_number, 
+                edo.email, edo.contact, edo.address,
+                edo.city, edo.state, edo.zip_code, edo.website
+            )
+            self._logger.info(f"Inserting new edo with query: {insert_query % params}")
             cursor.execute(
                 insert_query, 
-                (
-                    edo.name, edo.mobile_number, 
-                    edo.email, edo.contact, edo.address,
-                    edo.city, edo.state, edo.zip_code, edo.website
-                )
+                params
             )
             connection.commit()
             cursor.close()
@@ -141,7 +144,9 @@ class DatabaseLayer:
             connection = self._db_connection()
             cursor = connection.cursor()
             postgres_delete_query = "DELETE FROM edos WHERE id IN %s"
-            cursor.execute(postgres_delete_query, (tuple([edo._id for edo in edos]),))
+            params = (tuple([edo._id for edo in edos]),)
+            self._logger.info(f"Deleting edos with query: {postgres_delete_query % params}")
+            cursor.execute(postgres_delete_query, params)
             connection.commit()
             cursor.close()
             connection.close()
