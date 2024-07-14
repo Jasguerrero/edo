@@ -64,6 +64,21 @@ services:
     volumes:
       - pgadmin_data:/var/lib/pgadmin
 
+  redis-insight:
+    image: redis/redisinsight:latest
+    ports:
+      - "5540:5540"
+    volumes:
+      - redis_insight_data:/db  # Persist Redis Insight configuration
+    depends_on:
+      - cache
+    networks:
+      - app-network
+    command: redisinsight
+    restart: always
+    environment:
+      - REDISINSIGHT_PASSWORD=password
+
 networks:
   app-network:
     driver: bridge
@@ -71,3 +86,4 @@ networks:
 volumes:
   pgadmin_data:
     driver: local
+  redis_insight_data:

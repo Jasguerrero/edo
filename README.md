@@ -64,5 +64,21 @@ Payload example
 
 ## PG Admin
 
-- To connecto to the web client go to `localhost:6060` email: admin@admin.com | password: password
+- To connect to the web client go to `localhost:6060` email: admin@admin.com | password: password
 - Connect to the postgresdb with username: admin | password: password
+
+
+## To re run an specific city
+
+By default the cache is persisted 5 hours so by design if a city is rerunned before this interval you will get a log such as `City: {city} already processed.`. If you want to recalculate everything the cache should be delated following the next steps:
+
+- Access `localhost:5540`
+- Connect to the redis instance with hostname: `cache` port: `6379`
+- Delete all the keys related to the city
+  - Example keys to delete for city: "New York"
+  - new_york_edo_full_contact
+  - ny_edo
+  - New York
+  - new_york_edo_contact
+
+Keep in mind that rerunning a city do not delete the data on the postgres database so you might end with more than one copy of the EDOs (you can use the API or the PGAdmin to delete records)
