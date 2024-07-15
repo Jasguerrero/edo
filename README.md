@@ -1,5 +1,7 @@
 # Placer-EDO
 
+For documentation see high_level_design_doc.pdf
+
 ## How to run
 
 - [Install Docker](https://docs.docker.com/engine/install/)
