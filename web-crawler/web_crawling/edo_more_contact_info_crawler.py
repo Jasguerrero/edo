@@ -116,7 +116,6 @@ class EDOMoreContactInfoCrawler:
     def get_edo_full_contact_info(self, city):
         self._logging.info("get full contact info")
         filename = f"{self._get_filename(city)}"
-        #full_filename = f"{filename}.csv"
         df = self._storage_client.get_dataframe(filename)
         if df.empty:
             results = self.edo_contact_info.get_edo_contact_info(city)
