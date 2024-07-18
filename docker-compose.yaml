@@ -41,9 +41,11 @@ services:
       - db
       - cache
     volumes:
-      - ./data:/app/data
+      - ./data/csv:/app/data
     networks:
       - app-network
+    environment:
+      - CITY=New York
   
   pgadmin:
     image: dpage/pgadmin4:8.9

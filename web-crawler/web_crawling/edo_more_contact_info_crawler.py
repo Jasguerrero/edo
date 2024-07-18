@@ -98,9 +98,9 @@ class EDOMoreContactInfoCrawler:
         for row_dict in tqdm(results.to_dict(orient="records")):
             edo_dict = deepcopy(row_dict)
             edo_name = edo_dict["NAME"]
-            if not isinstance(edo_dict[self.WEBSITE_KEY], str):
+            if not isinstance(edo_dict.get(self.WEBSITE_KEY), str):
                 edo_dict[self.WEBSITE_KEY] = self._get_edo_website(edo_name)
-            if not isinstance(edo_dict[self.PHONE_KEY], str):
+            if not isinstance(edo_dict.get(self.PHONE_KEY), str):
                 edo_dict[self.PHONE_KEY] = self._get_edo_phone(edo_name)
             edo_dict[self.EMAIL_KEY] = self._get_edo_email(edo_name)
             contact_results.append(edo_dict)

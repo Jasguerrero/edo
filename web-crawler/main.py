@@ -11,16 +11,9 @@ from formatter.final_format import format_final_df
 
 logging.basicConfig(level=logging.INFO)
 
-def main(csv_storage_client: CSVStorageClient):
-    # Setup argument parser
-    parser = argparse.ArgumentParser(description='Web crawler for EDOs.')
-    parser.add_argument('--city', type=str, default='New York', help='City to search for EDOs')
-
-    # Parse arguments
-    args = parser.parse_args()
-
-    # Use default city if none provided
-    city = args.city
+def main():
+    city = os.getenv('CITY')
+    city = city if city else 'New York'
     if city == 'New York':
         logging.info('Using default city "New York"')
 
@@ -54,4 +47,4 @@ if __name__ == '__main__':
         csm_generator = CityStateMapGenerator(csv_storage_client, city_state_file_name)
         csm_generator.generate()
 
-    main(csv_storage_client)
+    main()

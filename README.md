@@ -16,7 +16,7 @@ docker-compose up --build
 If no city is provided, it will default to running NYC on startup with docker-compose. You can check the logs with `docker logs placer-edo_web-crawler_1`. After seeing `Web crawler finished for city={city}`, you can query the results:
 
 ```
-docker-compose run web-crawler [CITY]
+docker-compose run --env CITY={CITY} web-crawler
 ```
 
 ## API
